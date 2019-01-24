@@ -86,7 +86,7 @@ h1 {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 2.5rem;
-    color: #666666;
+    color: #666;
     padding: 0px;
     margin-bottom: 0px;
 }
@@ -109,20 +109,16 @@ h1 {
     padding: 25px;
 }
 
-#about-me-thumb {
-    margin-right: 15px;
-    margin-bottom: 10px;
-    float: left;
-}
-
 #about-me-para {
     display: inline; 
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: .9rem;
+    color: #666;
 }
 
 #about-me-para a {
-    color: #666;;
+    color: #666;
+    text-decoration: underline;
 }
 
 #about-me-para a:hover {
@@ -190,6 +186,7 @@ h1 {
     height: 200px;
     margin: 60px 10px 10px 10px;
     padding-bottom: 40px;
+    color: #666;
 }
 
 #portfolio-descript h3 {
@@ -203,11 +200,13 @@ h1 {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: .8rem;
     line-height: 1rem;
+    color: #666;
 }
 
 #portfolio-descript a {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-weight: bold;
+    font-size: .8rem;
     color: #666;
 }
 
@@ -226,13 +225,35 @@ h1 {
     width: 100%;
 }
 
+
 #contact-content {
     padding-top: 20px;
     max-width: 600px;
     margin: auto;
 }
 
-form {
+#contact-info {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: .8rem;
+    color: #666;
+}
+
+#contact-info img{
+    margin-bottom: 40px;
+}
+
+#contact-info a{
+    color: #666;
+    font-size: 1.25rem;
+}
+
+#contact-info a:hover{
+    color: #d4d93e;
+}
+
+/* form {
     padding: 0 25px 0 25px;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -283,7 +304,7 @@ textarea {
 #submit-btn:active { 
     background: #9fa32f;
     border: none;
-}
+} */
 
 #universal-footer {
     position: fixed;
