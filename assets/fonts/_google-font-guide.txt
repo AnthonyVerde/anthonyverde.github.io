@@ -1,0 +1,20 @@
+MONTSERRAT
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+
+
+font-family: 'Montserrat', sans-serif;
+
+
+CAVEAT
+
+<link href="https://fonts.googleapis.com/css?family=Caveat:400,700" rel="stylesheet">
+
+font-family: 'Caveat', cursive;
+
+
+ROKKITT
+
+<link href="https://fonts.googleapis.com/css?family=Rokkitt:300,800" rel="stylesheet">
+
+font-family: 'Rokkitt', serif;
