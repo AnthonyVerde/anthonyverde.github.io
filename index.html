@@ -6,11 +6,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Anthony Green Creative</title>
+
+    <!---SOCIAL SHARE IMG
+    <meta property="og:image" content="">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="628">
+    --->
+
+    <title>Anthony Green Design – Welcome!</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <!---STYLES-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!---GOOGLE FONTS-->
@@ -19,43 +29,49 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat:400,700" rel="stylesheet">
 
     <!---SCRIPTS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="assets/javascript/page-transition.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <script src="assets/javascript/page-transition.js"></script>
+    <script src="assets/javascript/scroll-down.js"></script>
+    <script src="assets/javascript/greeting.js"></script>
+    <script src="assets/javascript/portfolio-filter.js"></script>
+    <script src="assets/javascript/image-modal.js"></script>
+    <script src="assets/javascript/video-modal.js"></script>
 
 </head>
 
-<body>
+<body class="animate-in">
 
     <!--- TOP NAV --->
-    <div class="container-fluid" id="header-container">
+    <div class="container-fluid" id="header-container-home">
 
-        <div class="row" id="header-logo">
-            <div class="col-12" id="logo-container">
-                <img src="assets/images/ag-creative-logo.svg" alt="Anthony Green Creative monogram">
-            </div>
-        </div>
-
+        <!---NAVBAR-->
         <div class="row" id="top-nav-wrapper">
             <div class="col">
                 <div class="row" id="top-nav-main">
 
                     <div class="col-xs-12 col-md-4" id="top-nav-title">
                         <nav class="navbar">
-                            <span class="navbar-brand mb-0 h1">Anthony Green Creative</span>
+                            <a href="index.html">
+                                <span class="navbar-brand mb-0 logo">Anthony Green Design</span>
+                            </a>
                         </nav>
                     </div>
 
                     <div class="col-xs-12 col-md-8" id="top-nav-links">
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Home</a>
+                                <a class="nav-link" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                <a class="nav-link" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact.html">Contact</a>
@@ -67,69 +83,334 @@
             </div>
         </div>
 
+        <!---LOGO AREA--->
+        <!--div class="row" id="header-logo">
+            <div class="col-12" id="logo-container">
+                <img src="assets/images/ag-creative-logo.svg" alt="Anthony Green Creative monogram">
+            </div>
+        </div-->
+
+        <!---HEADER TEXT AREA--->
+        <div class="row" id="header-text">
+            <div class="col-12" id="text-container">
+                <h1 id="greeting"></h1>
+                <p>Make yourself at home. Grab a coffee and enjoy your visit!</p>
+                <div class="scroll-down-btn">
+                    <a href="#section2" class="scroll-down">
+                        <img src="assets/images/scroll-down-arrow-48x48.svg" alt="Scroll down arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!--- MAIN CONTENT --->
     <div class="container-fluid" id="main-content-container">
-       
-        <div class="row" id="h1-header">
-            <div id="h1-container">
-                <h1>HI THERE!</h1>
+
+        <section id="section2">
+            <div class="row" id="portfolio-content">
+
+                <div id="portfolio-btn-container">
+                    <ul class="portfolio-filters">
+                        <li role="presentation" class="btn active" portfolio-filter="all"><a>All</a></li>
+                        <li role="presentation" class="btn" portfolio-filter="illustration"><a>Illustration</a></li>
+                        <li role="presentation" class="btn" portfolio-filter="brand"><a>Brand</a></li>
+                        <li role="presentation" class="btn" portfolio-filter="web"><a>Web</a></li>
+                        <li role="presentation" class="btn" portfolio-filter="motion"><a>Motion</a></li>
+                        <!--li role="presentation" class="btn" portfolio-filter="print"><a>Print</a></li-->
+                        <!--li role="presentation" class="btn" portfolio-filter="photography"><a>Photography</a></li-->
+                    </ul>
+                </div>
+
+                <div class="row" id="portfolio-row">
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="web">
+                        <a href="buddy-up.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/buddy-up/buddy-up-app.png">
+
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>BuddyUp!</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
+                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox">
+                            <img id="" src="assets/images/portfolio-imgs/illustration/plymouth-voyager.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/zoom-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Plymouth Voyager</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="brand">
+                        <a href="canada-life.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/canada-life/canada-life-thumb.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Canada Life</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="brand">
+                        <a href="economical.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/economical/economical-thumb.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Economical</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
+                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox">
+                            <img id="" src="assets/images/portfolio-imgs/illustration/casio-keyboard.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/zoom-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Casio SK-1</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                        <a href="holiday-cards.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/holiday-cards/holiday-card-thumb.jpg">
+
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Holiday Cards</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                        <a href="#" data-toggle="modal" data-target="#myModal3">
+                            <img src="assets/images/portfolio-imgs/humor/skinny-latte.png">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/play-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Skinny Latte</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="modal fade" id="myModal3" tabindex="-1" role="dialog"
+                            aria-labelledby="myModalLabel">
+                            <div class="modal-dialog modal-square" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video controls id="video3" style="width: 100%; height: auto; margin:0 auto;">
+                                            <source src="assets/videos/skinny-latte.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
+                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox">
+                            <img src="assets/images/portfolio-imgs/illustration/coffee-helmet.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/zoom-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Hands-free Coffee</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="brand">
+                        <a href="belwood.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/belwood/belwood.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Belwood Poultry</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                        <a href="#" data-toggle="modal" data-target="#myModal2">
+                            <img src="assets/images/portfolio-imgs/humor/design-joke.png">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/play-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Designer's Pants</h3>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog"
+                            aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video controls id="video2" style="width: 100%; height: auto; margin:0 auto;">
+                                            <source src="assets/videos/designer-pants.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="web">
+                        <a href="grand-porter.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/grand-porter/grandporter.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Grand Porter</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
+                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox">
+                            <img src="assets/images/portfolio-imgs/illustration/cozy-coupe.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/zoom-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Cozy Coupe</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="web">
+                        <a href="gifatron.html" target="_blank">
+                            <img src="assets/images/portfolio-imgs/gif-a-tron/gif-a-tron.png">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/view-project-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>GIF-a-tron</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
+                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox">
+                            <img src="assets/images/portfolio-imgs/illustration/cocoa-assembly.jpg">
+                            <div class="middle">
+                                <div class="thumbnail-icon">
+                                    <img src="assets/images/zoom-button-18x18.svg">
+                                </div>
+                                <div class="img-description">
+                                    <h3>Hot Cocoa Assembly</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+
+                    <!--<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="#">
+                        <a href="#" target="_blank">
+                            <img src="assets/images/portfolio-imgs/#">
+                            <div class="middle">
+                                <div class="img-description">
+                                    <h3>Project Name</h3>
+                                    <p>Description</p>
+                                </div>    
+                            </div>
+                        </a>
+                    </div>-->
+
+                </div>
+
             </div>
-        </div>
 
-        <div class="row" id="main-content">
-
-            <div class="col-xs-12" id="about-me">
-                <div class="row" id="about-me-content">
-                    <div id="about-me-para">
-                        <p>
-                           My name's Anthony Green (you can call me Tony). I'm a professional visual designer with over 10 years of experience in the creative world.
-                            <br><br>
-                            I started out in a print-based role churning out infographics for daily papers across
-                            Canada.
-                            Over the last five years I've transitioned into a more digital design role working closely
-                            with
-                            front end developers to create user friendly web experiences. I am also currently enrolled
-                            in
-                            the Code Bootcamp with University of Toronto where I'm sure I will not only gain a few
-                            (more)
-                            grey hairs, but a ton of web development experience as well!
-                            <br><br>
-                            When I'm not behind the monitor pushing pixels, you can find me at home in London, ON,
-                            enjoying
-                            some quality time with my wife and two kids (yes, I crack <a href="http://niceonedad.com/"
-                                target="_blank">dad
-                                jokes</a> like they're going out of style).
-                            I also enjoy nature, photography, anything with cars, and coffee.
-                        </p>
+            <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
 
+        </section>
+
+    </div>
+
+    <div class="row" id="universal-footer">
+
+        <div class="col-12 footer-content-top">
+            <a href="https://dribbble.com/anthony-verde" target="_blank">
+                <img src="assets/images/social-icons/dribbble-white.svg" alt="Dribbble Icon White" width="32px">
+            </a>
+            <a href="https://github.com/AnthonyVerde" target="_blank">
+                <img src="assets/images/social-icons/github-white.svg" alt="GitHub Icon White" width="32px">
+            </a>
+            <a href="https://www.linkedin.com/in/anthony-green-creative/" target="_blank">
+                <img src="assets/images/social-icons/linkedin-white.svg" alt="LinkedIn Icon White" width="32px">
+            </a>
         </div>
 
-        <div class="row" id="universal-footer">
-
-            <div class="col-12 footer-content-top">
-                <a href="https://github.com/AnthonyVerde" target="_blank">
-                    <img src="assets/images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="GitHub Icon White">
-                </a>
-                <!----a href="https://anthony-green-creative.myportfolio.com/" target="_blank">
-                    <img src="assets/images/adobe-portfolio-icon-32x32.png">
-                </a-->
-                <a href="https://www.behance.net/anthonyd26e" target="_blank">
-                    <img src="assets/images/behance-icon-32x32.png" alt="Behance Icon White">
-                </a>
-                <a href="https://www.linkedin.com/in/tony-green-b9047032" target="_blank">
-                    <img src="assets/images/linkedin-32x32.png" alt="LinkedIn Icon White">
-                </a>
-            </div>
-
-            <div class="col-12 footer-content-bottom">
-                <footer>&copy; Copyright 2019</footer>
-            </div>
-        
+        <div class="col-12 footer-content-bottom">
+            <footer>Anthony Green Design &copy; Copyright 2020</footer>
         </div>
 
     </div>
