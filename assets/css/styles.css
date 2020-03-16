@@ -901,7 +901,7 @@ footer {
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
  
         background-position: top left;
     }
@@ -909,7 +909,7 @@ footer {
     #header-container-about {
         background-image: url('../images/foosball-crop-xs.jpg');
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
  
         background-position: top left;
     }
