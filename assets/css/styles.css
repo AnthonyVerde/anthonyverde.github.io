@@ -899,14 +899,14 @@ footer {
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
-        background-attachment: scroll;
+        position: fixed;
         width: 100%!important;
         height: auto!important;
     }
 
     #header-container-about {
         background-image: url('../images/foosball-crop-xs.jpg');
-        background-attachment: scroll;
+        position: fixed;
         width: 100%!important;
         height: auto!important;
     }
