@@ -759,7 +759,7 @@ footer {
 
     #text-container h1 {
         font-size: 65px;
-        line-height: 70px;
+        line-height: 65px;
     }
 
     #text-container p {
@@ -899,6 +899,11 @@ footer {
 @media screen and (max-width: 575px) {
     .middle {
         opacity: 1!important;
+    }
+
+    #text-container h1 {
+        font-size: 45px;
+        line-height: 50px;
     }
 
     .modal-square {
