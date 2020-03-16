@@ -901,8 +901,6 @@ footer {
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
-        background-size: initial!important;
-        background-attachment: fixed;
         width: 100%!important;
         height: auto!important;
     }
