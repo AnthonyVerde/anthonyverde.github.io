@@ -901,14 +901,16 @@ footer {
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
-        width: 100%;
-        height: auto;
+        background-size: initial!important;
+        background-attachment: fixed;
+        width: 100%!important;
+        height: auto!important;
     }
 
     #header-container-about {
         background-image: url('../images/foosball-crop-xs.jpg');
-        width: 100%;
-        height: auto;
+        width: 100%!important;
+        height: auto!important;
     }
 
     .middle {
