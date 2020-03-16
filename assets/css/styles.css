@@ -155,7 +155,6 @@ table {
 
 #header-container-home {
     background: #747474;
-    /*background-image: url('../images/tetris-bg.svg');*/
     background-image: url('../images/home-page-header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -165,7 +164,6 @@ table {
 
 #header-container-about {
     background: #747474;
-    /*background-image: url('../images/tetris-bg.svg');*/
     background-image: url('../images/foosball-crop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -901,12 +899,14 @@ footer {
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
+        background-attachment: scroll;
         width: 100%!important;
         height: auto!important;
     }
 
     #header-container-about {
         background-image: url('../images/foosball-crop-xs.jpg');
+        background-attachment: scroll;
         width: 100%!important;
         height: auto!important;
     }
