@@ -99,7 +99,7 @@ table {
     max-width: 980px;
     margin: auto;
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 30px; 
 }
 
 #top-nav-title {
@@ -109,7 +109,7 @@ table {
 .navbar {
     margin: auto;
     text-align: center;
-    
+    padding-left: 0;
 }
 
 .navbar a {
@@ -192,10 +192,25 @@ table {
     padding-right: 30px;
 }
 
+.col {
+    padding: 0!important;
+}
+
+.col-md-8 {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.col-12 {
+    padding: 0!important;
+}
+
 #text-container {
     position: absolute;
     bottom: 10%;
     max-width: 767px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #header-logo {
@@ -278,14 +293,40 @@ h1 {
 
 #main-content {
     background: white;
-    padding: 0px 30px 15px 30px;
     margin-bottom: 50px;
     margin-top: 50px;
     float: left;
 }
 
 #content-row {
-    padding: 15px;
+    padding: 30px;
+}
+
+#about-img-col  {
+    width: 100%;  
+    padding-right: 80px;
+}
+
+.about-img {
+    margin-bottom: 40px;
+}
+
+.about-img img {
+    width: 100%;  
+    border-radius: 100%; 
+}
+
+.pullquote {
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: gray;
+    line-height: 1.5em;
+    margin-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #content-para {
@@ -452,34 +493,6 @@ h2 {
 
 .project-img img {
     width: 100%;   
-}
-
-#about-img-col  {
-    width: 100%;  
-    padding-left: 40px;  
-    padding-right:  40px;
-}
-
-.about-img {
-    margin-bottom: 40px;
-}
-
-.about-img img {
-    width: 100%;  
-    border-radius: 100%; 
-}
-
-.pullquote {
-    text-align: center;
-    width: 100%;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-style: italic;
-    color: gray;
-    line-height: 1.5em;
-    margin-bottom: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .final-img {
@@ -651,7 +664,6 @@ textarea:focus::placeholder {
 
 
 #universal-footer {
-    
     width: 100%;
     margin: auto 0;
     background:black;
@@ -659,31 +671,60 @@ textarea:focus::placeholder {
     opacity: .8;
 }
 
+
 .footer-content-top {
-    text-align: center;
+    margin: auto;
     margin-bottom: 30px;
-    margin-top: 10px
+    margin-top: 10px;
+    max-width: 383px;
 }
 
 .footer-content-top a {
     margin-left: 10px;
     margin-right: 10px;
-    opacity: .5;
+    opacity: .7;
     transition: .5s ease;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
 }
 
 .footer-content-top a:hover {
     text-decoration: none; 
     opacity: 1;
     transition: .5s ease;
+    color: #d4d93e;
 }
 
-.footer-content-bottom {
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+/*.footer-content-bottom {
+    margin: auto;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 12px;
     color: #fff;
-    text-align: center;
+    text-align: right;
     margin-bottom: 10px;
+    opacity: .7;
+    max-width: 900px;
+}*/
+
+footer {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    opacity: .7;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -712,7 +753,8 @@ textarea:focus::placeholder {
     }
 
     #text-container {
-        padding-right: none;
+        padding-left: 30px!important;
+        padding-right: 30px!important;
     }
 
     #text-container h1 {
@@ -728,9 +770,7 @@ textarea:focus::placeholder {
     }
 
     .scroll-down-btn {
-        margin: auto;
-        margin-top: 45px;
-        width: 48px;
+        display: none;
     }
 
     .modal-dialog {
@@ -752,6 +792,12 @@ textarea:focus::placeholder {
     
     .navbar-brand {
         margin: auto;
+    }
+
+    .navbar {
+        margin: auto;
+        text-align: center;
+        padding: 0;
     }
 
     .navbar a {
@@ -793,6 +839,7 @@ textarea:focus::placeholder {
     #about-img-col {
         margin: auto;
         text-align: center;
+        padding: 0!important;
     }
 
     .about-img {
@@ -827,6 +874,24 @@ textarea:focus::placeholder {
 
     .justify-content-end {
         justify-content: center!important;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+    
+    .footer-right {
+        text-align: center;
+    }
+
+    .footer-content-bottom {
+        text-align: center;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    footer {
+        text-align: center;
     }
 
 }
