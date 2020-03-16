@@ -769,10 +769,9 @@ footer {
         padding-right: 20px;
     }
 
-    /*.scroll-down-btn {
-        margin: auto;
-        margin-top: 40px;
-    }*/
+    .scroll-down-btn {
+        display: none;
+    }
 
     .modal-dialog {
         max-width: 100%;
