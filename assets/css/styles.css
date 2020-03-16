@@ -900,28 +900,14 @@ footer {
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
-        -webkit-background-attachment: scroll;
-    -moz-background-attachment: scroll;
-    -o-background-attachment: scroll;
-    -ms-backgroudn-attachment: scroll;
-    background-attachment: scroll;
-    -webkit-background-size: fill;
-    -moz-background-size: fill;
-    -o-background-size: fill;
-    background-size: fill;
+        width: 100%;
+        height: auto;
     }
 
     #header-container-about {
         background-image: url('../images/foosball-crop-xs.jpg');
-        -webkit-background-attachment: scroll;
-    -moz-background-attachment: scroll;
-    -o-background-attachment: scroll;
-    -ms-backgroudn-attachment: scroll;
-    background-attachment: scroll;
-    -webkit-background-size: fill;
-    -moz-background-size: fill;
-    -o-background-size: fill;
-    background-size: fill;
+        width: 100%;
+        height: auto;
     }
 
     .middle {
