@@ -900,18 +900,11 @@ footer {
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
-        background-repeat: no-repeat;
-        background-size: fill;
-        background-position: top left;
     }
 
     #header-container-about {
         background-image: url('../images/foosball-crop-xs.jpg');
-        background-repeat: no-repeat;
-        background-size: fill;
-        background-position: top left;
     }
-
 
     .middle {
         opacity: 1!important;
