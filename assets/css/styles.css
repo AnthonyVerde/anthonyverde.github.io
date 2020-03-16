@@ -770,7 +770,8 @@ footer {
     }
 
     .scroll-down-btn {
-        display: none;
+        margin: auto;
+        margin-top: 40px;
     }
 
     .modal-dialog {
