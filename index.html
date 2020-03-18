@@ -47,12 +47,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $("#universal-nav").load("universal-nav.html");
+            $("#universal-footer").load("universal-footer.html");
+        });
+    </script>
     <script src="assets/javascript/page-transition.js"></script>
     <script src="assets/javascript/scroll-down.js"></script>
     <script src="assets/javascript/greeting.js"></script>
     <script src="assets/javascript/portfolio-filter.js"></script>
     <script src="assets/javascript/image-modal.js"></script>
     <script src="assets/javascript/video-modal.js"></script>
+
+
 
 </head>
 
@@ -62,8 +71,8 @@
     <div class="container-fluid" id="header-container-home">
 
         <!---NAVBAR-->
-        <div class="row" id="top-nav-wrapper">
-            <div class="col">
+        <div class="row" id="universal-nav top-nav-wrapper">
+            <!---div class="col">
                 <div class="row" id="top-nav-main">
 
                     <div class="col-xs-12 col-md-4" id="top-nav-title">
@@ -77,9 +86,6 @@
 
                     <div class="col-xs-12 col-md-8" id="top-nav-links">
                         <ul class="nav justify-content-end">
-                            <!--li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li--->
                             <li class="nav-item">
                                 <a class="nav-link" href="about.html">About</a>
                             </li>
@@ -87,15 +93,8 @@
                     </div>
 
                 </div>
-            </div>
+            </div--->
         </div>
-
-        <!---LOGO AREA--->
-        <!--div class="row" id="header-logo">
-            <div class="col-12" id="logo-container">
-                <img src="assets/images/ag-creative-logo.svg" alt="Anthony Green Creative monogram">
-            </div>
-        </div-->
 
         <!---HEADER TEXT AREA--->
         <div class="row" id="header-text">
@@ -220,7 +219,7 @@
                             </div>
                         </a>
                     </div>
-                    
+
 
                     <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
                         <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox">
@@ -659,8 +658,7 @@
 
     <div class="row" id="universal-footer">
 
-
-        <div class="col-sm-12 col-md-6 footer-content-top footer-left">
+        <!--div class="col-sm-12 col-md-6 footer-content-top footer-left">
             <a href="https://dribbble.com/anthony-verde" target="_blank">
                 <img src="assets/images/social-icons/dribbble-white.svg" alt="Dribbble Icon White" width="32px">
             </a>
@@ -677,7 +675,7 @@
                 howdy@anthonygreen.design
             </a>
             <footer>Anthony Green Design &copy; Copyright 2020</footer>
-        </div>
+        </div-->
 
     </div>
 
