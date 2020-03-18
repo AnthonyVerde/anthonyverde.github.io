@@ -85,7 +85,7 @@ table {
 
 /* NAV STYLES */
 
-#universal-nav {
+#top-nav-wrapper {
     position: fixed;
     width: 100%;
     margin: auto;
@@ -784,7 +784,7 @@ footer {
         padding-top: 100px;
     }
 
-    #universal-nav {
+    #top-nav-wrapper {
         padding-top: 15px;
         padding-bottom: 15px;
     }
