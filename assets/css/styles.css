@@ -283,8 +283,26 @@ h1 {
 #main-content-wrapper {
     max-width: 980px;
     margin: auto; 
- 
 }
+
+#back-to-top-btn {
+    margin: auto;
+    width: 100%;
+}
+
+.scroll-up-btn {
+    margin: auto;
+    width: 48px;
+    transition: ease .2s;
+    opacity: .6;
+    margin-bottom: 50px;
+}
+
+.scroll-up-btn:hover {
+    transition: ease .2s;
+    opacity: 1;
+}
+
 
 
 /* ABOUT ME STYLES */
@@ -362,7 +380,7 @@ h1 {
 
 #portfolio-content {
     margin: auto; 
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #portfolio-btn-container {
