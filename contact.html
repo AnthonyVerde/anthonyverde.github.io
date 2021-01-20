@@ -125,13 +125,20 @@
                 <div class="col-12" id="main-content contact-form">
                     <div class="row" id="content-row">
                         <div class="col-12" id="content-para">
-                            <form action="https://formspree.io/f/xeqpngll" method="post">
+                            <form name="contact-form" action="https://formspree.io/f/xeqpngll" method="post">
                                 <input type="text" id="name-input" name="name" placeholder="Name" required>
 
                                 <input type="email" id="email-input" name="email" placeholder="Email address" required>
 
                                 <textarea id="message" name="message" placeholder="What's up?" required></textarea>
-                                <input type="submit" value="Submit" id="submit-btn">
+                                <input type="submit" value="Submit" id="submit-btn" onclick="submitForm()">
+                                
+                                <script>
+                                    function submitForm() {
+                                    document.contact-form.submit();
+                                    document.contact-form.reset();
+                                    }
+                                </script>
                             </form>
                         </div>
                     </div>
