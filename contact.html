@@ -134,11 +134,10 @@
                                 <input type="submit" value="Submit" id="submit" onclick="submitForm()">
                                 
                                 <script>
-                                    function submitForm() {
-                                    var frm = document.getElementsByName('contact-form')[0];
-                                    frm.submit();
-                                    frm.reset(); 
-                                    return false;
+                                    function submitForm () {
+                                    // your code
+
+                                    $('form :input').attr('value', '');
                                     }
                                 </script>
                             </form>
