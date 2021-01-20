@@ -134,10 +134,9 @@
                                 <input type="submit" value="Submit" id="submit" onclick="submitForm()">
                                 
                                 <script>
-                                    function submitForm () {
-                                    // your code
-
-                                    $('form :input').attr('value', '');
+                                    function submitForm() {
+                                    $('form[name="contact-form"]').submit();
+                                    $('input[type="text"], textarea').val('');
                                     }
                                 </script>
                             </form>
