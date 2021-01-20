@@ -659,7 +659,7 @@ textarea:focus::placeholder {
     color: transparent;
 }
 
-#submit-btn {
+#submit {
     width: 100px;
     height: 40px;
     background: #d4d93e;
@@ -671,13 +671,13 @@ textarea:focus::placeholder {
     transition: ease .2s;
 }
 
-#submit-btn:hover {
+#submit:hover {
     background: #747474;
     color: white;
     transition: ease .2s;
 }
 
-#submit-btn:active { 
+#submit:active { 
     background: #9fa32f;
     border: none;
 } 
