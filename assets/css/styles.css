@@ -280,6 +280,10 @@ h1 {
     padding-top: 50px;
 }
 
+#contact-form {
+	width: 100%;
+}
+
 #main-content-wrapper {
     max-width: 980px;
     margin: auto; 
