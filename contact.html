@@ -135,9 +135,11 @@
                                 
                                 <script>
                                     function submitForm() {
-                                    document.contact-form.submit();
-                                    document.contact-form.reset();
-                                    }
+   var frm = document.getElementsByName('contact-form')[0];
+   frm.submit();
+   frm.reset(); 
+   return false;
+}
                                 </script>
                             </form>
                         </div>
