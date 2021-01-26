@@ -509,11 +509,11 @@ h2 {
 
 .project-img {
     margin-bottom: 40px;
-    border: 1px solid #ccc;
 }
 
 .project-img img {
-    width: 100%;   
+    width: 100%; 
+    border: 1px solid #ccc;
 }
 
 .final-img {
