@@ -513,6 +513,14 @@ h2 {
 
 .project-img img {
     width: 100%; 
+}
+
+.project-img-border {
+    margin-bottom: 40px;
+}
+
+.project-img-border img {
+    width: 100%; 
     border: 1px solid #ccc;
 }
 
