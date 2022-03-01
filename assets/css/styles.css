@@ -987,7 +987,10 @@ footer {
         background-attachment: scroll;
         width: 100%!important;
         height: auto!important;
+    }
 
+    #header-container-contact {
+        background-position-x: -550px;
     }
 
     .middle {
@@ -1004,3 +1007,8 @@ footer {
     }
 }
 
+@media screen and (max-width: 390px) {
+    #header-container-contact {
+        background-position-x: -800px;
+    }
+}
