@@ -172,7 +172,8 @@ table {
 
 #header-container-about {
     background: #747474;
-    background-image: url('../images/foosball-crop.jpg');
+    /*background-image: url('../images/foosball-crop.jpg');*/
+    background-image: url('../images/me-and-jude-crop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -579,6 +580,9 @@ video:focus {
     max-width: 100%!important;
 }
 
+.modal-header {
+    border-bottom: none;
+}
 
 /* CONTACT PAGE STYLES */
 
@@ -768,11 +772,12 @@ footer {
 @media screen and (max-width: 767px) {
     
     #header-container-about {
-        background-image: url('../images/foosball-crop-m.jpg');
+        /*background-image: url('../images/foosball-crop-m.jpg');*/
+        background-image: url('../images/me-and-jude-crop-m.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position: top left;
+        background-position: top center;
     }
 
     #header-logo {
@@ -948,10 +953,12 @@ footer {
     }
 
     #header-container-about {
-        background-image: url('../images/foosball-crop-xs.jpg');
+        /*background-image: url('../images/foosball-crop-xs.jpg');*/
+        background-image: url('../images/me-and-jude-crop-xs.jpg');
         background-attachment: scroll;
         width: 100%!important;
         height: auto!important;
+
     }
 
     .middle {
