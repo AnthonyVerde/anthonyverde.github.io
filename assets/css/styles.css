@@ -116,19 +116,22 @@ table {
 
 .navbar {
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding-left: 0;
 }
 
 .navbar a {
     padding-left: 0;
-
+    text-decoration: none;
 }
 
 .navbar-brand {
-    font-weight: bold;
+    font-weight: 800;
     color: white;
+    font-size: 2rem;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    line-height: 1rem;
+    display: block;
 }
 
 .title {
@@ -365,6 +368,18 @@ h1 {
 }
 
 #content-para p {
+    font-weight: light;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    line-height: 1.25em;
+    font-size: .9rem;
+    margin-bottom: 30px;
+}
+
+#about-me-content {
+    padding-left: 0!important;
+}
+
+#about-me-content p {
     font-weight: light;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     line-height: 2.25em;
