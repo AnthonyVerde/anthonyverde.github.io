@@ -89,7 +89,8 @@ table {
     position: fixed;
     width: 100%;
     margin: auto;
-    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
     opacity: .8;
     z-index: 3;
@@ -100,6 +101,13 @@ table {
     margin: auto;
     padding-left: 30px;
     padding-right: 30px; 
+    max-height: 140px;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 100px;
+    margin: auto;
 }
 
 #top-nav-title {
@@ -123,12 +131,12 @@ table {
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
-.logo {
+.title {
     transition: ease .2s;
     padding-left: 5px;
 }
 
-.logo:hover {
+.title:hover {
     color: #d4d93e;
     text-decoration: none;
     transition: ease .2s;
@@ -313,22 +321,13 @@ h1 {
 
 #main-content {
     background: white;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     float: left;
 }
 
 #content-row {
     padding: 30px;
-}
-
-#about-img-col  {
-    width: 100%;  
-    padding-right: 80px;
-}
-
-.about-img {
-    margin-bottom: 40px;
 }
 
 .about-img img {
@@ -337,14 +336,25 @@ h1 {
 }
 
 .pullquote {
-    text-align: center;
     width: 100%;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1.5rem;
     font-style: italic;
     color: gray;
     line-height: 1.5em;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+.quote-credit {
+    width: 100%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    color: gray;
+    line-height: 1.5em;
+    margin-bottom: 100px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -356,7 +366,7 @@ h1 {
 #content-para p {
     font-weight: light;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: .9rem;
     margin-bottom: 30px;
 }
@@ -391,7 +401,7 @@ h1 {
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 100px;
     padding-bottom: 30px;
 }
 
@@ -613,7 +623,6 @@ form {
     font-size: 14px;
     color: #747474;
     line-height: 24px;
-    margin-bottom: 100px;
     width: 100%;
     text-align: left;
 }
@@ -836,6 +845,10 @@ footer {
         padding-left: 0;
     }
 
+    #top-nav-title {
+        display: none;
+    }
+
     #top-nav-links {
         margin: auto;
         text-align: center;
@@ -866,24 +879,13 @@ footer {
         width: 100%;
     }
 
-    #about-img-col {
-        margin: auto;
+    .pullquote{
+        margin-top: 50px;
         text-align: center;
-        padding: 0!important;
     }
 
-    .about-img {
-        position: relative;
-        
-    }
-
-    .about-img img {
-        width: 50%;
-    }
-    
-    .pullquote {
-        padding-left: 15%;
-        padding-right: 15%;
+    .quote-credit {
+        text-align: center;
     }
 
     #contact-info h5{
