@@ -845,8 +845,8 @@ footer {
     }
 
     #top-nav-wrapper {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     
     .navbar-brand {
@@ -855,14 +855,21 @@ footer {
 
     .navbar {
         margin: auto;
-        text-align: center;
+        text-align: left;
         padding: 0;
     }
 
     .navbar a {
-        margin: auto;
-        text-align: center;
         padding-left: 0;
+    }
+
+    .navbar-brand {
+        font-weight: 800;
+        color: white;
+        font-size: 1.25rem;
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        line-height: .4rem;
+        display: block;
     }
 
     .nav-logo {
@@ -870,14 +877,10 @@ footer {
         margin: 0;
     }
 
-    #top-nav-title {
-        display: none;
-    }
-
     #top-nav-links {
         margin: auto;
         text-align: center;
-        width: 70%;
+        width: 45%;
     }
 
     #main-content {
@@ -959,6 +962,17 @@ footer {
 }
 
 @media screen and (max-width: 575px) {
+    #top-nav-title {
+       display: none;
+    }
+   
+    .navbar {
+        display: none;
+    }
+
+    #top-nav-links {
+        width: 70%;
+    }
 
     #header-container-home {
         background-image: url('../images/home-page-header-xs.jpg');
