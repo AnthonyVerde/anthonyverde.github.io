@@ -845,6 +845,11 @@ footer {
         padding-left: 0;
     }
 
+    .nav-logo {
+        width: 84px;
+        margin: 0;
+    }
+
     #top-nav-title {
         display: none;
     }
@@ -852,6 +857,7 @@ footer {
     #top-nav-links {
         margin: auto;
         text-align: center;
+        width: 80%;
     }
 
     #portfolio-descript {
@@ -902,10 +908,6 @@ footer {
 
     textarea {
         width: 100%;
-    }
-
-    .justify-content-end {
-        justify-content: center!important;
     }
 
     .footer-left {
