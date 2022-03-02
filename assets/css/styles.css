@@ -186,7 +186,7 @@ table {
 #header-container-contact {
     background: #747474;
     /*background-image: url('../images/tetris-bg.svg');*/
-    background-image: url('../images/contact-page-header-img-v2.jpg');
+    background-image: url('../images/contact-page-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -786,9 +786,20 @@ footer {
 
 @media screen and (max-width: 767px) {
     
+
+
     #header-container-about {
         /*background-image: url('../images/foosball-crop-m.jpg');*/
         background-image: url('../images/me-and-jude-crop-m.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: top center;
+    }
+
+    #header-container-contact {
+        /*background-image: url('../images/foosball-crop-m.jpg');*/
+        background-image: url('../images/contact-page-header-m.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -990,7 +1001,10 @@ footer {
     }
 
     #header-container-contact {
-        background-position-x: -550px;
+        background-image: url('../images/contact-page-header-xs.jpg');
+        background-attachment: scroll;
+        width: 100%!important;
+        height: auto!important;
     }
 
     .middle {
@@ -1004,11 +1018,5 @@ footer {
 
     .modal-square {
         max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    #header-container-contact {
-        background-position-x: -800px;
     }
 }
