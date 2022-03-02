@@ -97,11 +97,11 @@ table {
 }
 
 #top-nav-main {
-    max-width: 980px;
+    max-width: 950px;
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px; 
-    max-height: 140px;
+    padding-left: 0;
+    padding-right: 0;
+    max-height: 130px;
     align-items: center;
 }
 
@@ -724,16 +724,25 @@ textarea:focus::placeholder {
     width: 100%;
     margin: auto 0;
     background:black;
-    padding: 25px;
+    padding-top: 25px;
     opacity: .8;
 }
 
+.footer-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.footer-main {
+    max-width: 950px;
+    margin: auto;
+}
 
 .footer-content-top {
     margin: auto;
     margin-bottom: 30px;
     margin-top: 10px;
-    max-width: 383px;
+    /* max-width: 383px; */
 }
 
 .footer-content-top a {
@@ -755,10 +764,12 @@ textarea:focus::placeholder {
 
 .footer-left {
     text-align: left;
+    padding: 15px;
 }
 
 .footer-right {
     text-align: right;
+    padding: 15px;
 }
 
 /*.footer-content-bottom {
@@ -785,8 +796,6 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-    
-
 
     #header-container-about {
         /*background-image: url('../images/foosball-crop-m.jpg');*/
