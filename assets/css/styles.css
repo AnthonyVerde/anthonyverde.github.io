@@ -323,6 +323,7 @@ table {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    transition: .5s;
 }
 
 #header-container-home.morning {
@@ -1300,5 +1301,13 @@ footer {
 
     .modal-square {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #header-container-home {
+        background-position-x: center;
+        background-position-y: 60px;
+        transition: .5s;
     }
 }
