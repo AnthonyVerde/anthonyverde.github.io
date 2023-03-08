@@ -329,6 +329,36 @@ table {
     background-image: url('../images/home-page-morning.png');
 }
 
+#greeting.morning h1 {
+    background-image: linear-gradient(160deg, #ffea6d, #ff5a85);
+    padding-bottom: 20px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    color: transparent;
+}
+
+#greeting.afternoon h1 {
+    background-image: linear-gradient(300deg, #bcffca, #54ddf2);
+    padding-bottom: 20px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    color: transparent;
+}
+
+#greeting.evening h1 {
+    background-image: linear-gradient(236deg, #563e9e, #f64896);
+    padding-bottom: 20px;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    color: transparent;
+}
+
 #header-container-home.afternoon {
     background-image: url('../images/home-page-afternoon.png');
 }
@@ -403,7 +433,7 @@ table {
 #text-container {
     position: absolute;
     top: 30%;
-    max-width: 510px;
+    max-width: 520px;
     padding-left: 30px;
     padding-right: 30px;
 }
