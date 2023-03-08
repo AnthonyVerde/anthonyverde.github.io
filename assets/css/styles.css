@@ -323,7 +323,6 @@ table {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    transition: .5s;
 }
 
 #header-container-home.morning {
@@ -1273,6 +1272,7 @@ footer {
         background-attachment: scroll;
         width: 100% !important;
         height: auto !important;
+        transition: .5s;
     }
 
     #header-container-about {
@@ -1309,5 +1309,9 @@ footer {
         background-position-x: center;
         background-position-y: 60px;
         transition: .5s;
+    }
+
+    .scroll-down-btn {
+        display: none;
     }
 }
