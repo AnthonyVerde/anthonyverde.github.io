@@ -204,12 +204,22 @@ table {
     backdrop-filter: blur(10px);
 }
 
+.ag-monogram {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.agd-wordmark {
+    display: inline;
+}
+
 .logo>a {
-    font-family: 'Big Shoulders Text', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     color: white;
     transition: .3s;
-    font-weight: 700;
+    font-weight: 100;
     font-size: 1.8em;
+    letter-spacing: -1px;
 
 }
 
@@ -294,13 +304,15 @@ table {
 }
 
 @media (max-width: 700px) {
-    .top-nav {
+    /*.top-nav {
         flex-direction: column;
         height: 115px;
-    }
+    }*/
 
-    .logo {
-        margin-bottom: 15px;
+
+
+    .agd-wordmark {
+        display: none;
     }
 }
 
@@ -368,7 +380,7 @@ table {
 
 #header-text {
     margin: auto;
-    max-width: 980px;
+    max-width: 1280px;
     text-align: left;
     min-height: 100vh;
     padding-left: 30px;
@@ -391,7 +403,7 @@ table {
 #text-container {
     position: absolute;
     top: 30%;
-    max-width: 380px;
+    max-width: 510px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -421,8 +433,8 @@ table {
 }
 
 h1 {
-    font-family: 'Big Shoulders Text', Helvetica, Arial, sans-serif;
-    font-weight: 900;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     font-size: 60px;
     color: #747474;
     padding: 0px;
@@ -430,12 +442,12 @@ h1 {
     transition: .5s;
 }
 
-
 #text-container h1 {
     color: white;
     font-size: 100px;
-    line-height: 100px;
     margin-bottom: 20px;
+    letter-spacing: -3px;
+    line-height: 80px;
 }
 
 #text-container p {
@@ -448,8 +460,8 @@ h1 {
 
 #project-title {
     color: #747474 !important;
-    margin-bottom: 40px;
-    font-size: 36px;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 .scroll-down-btn {
@@ -1000,6 +1012,17 @@ footer {
     margin-left: 10px;
 }
 
+@media screen and (max-width: 950px) {
+    #text-container {
+        max-width: 380px;
+    }
+
+    #text-container h1 {
+        font-size: 80px;
+        line-height: 70px;
+    }
+}
+
 @media screen and (max-width: 767px) {
 
     #header-container-home.morning {
@@ -1071,13 +1094,12 @@ footer {
         padding-left: 30px !important;
         padding-right: 30px !important;
         max-width: 100%;
-        top: 20%;
+        top: 15%;
     }
 
     #text-container h1 {
-        font-size: 80px;
+        font-size: 70px;
         line-height: 65px;
-        font-weight: 900;
     }
 
     #text-container p {
