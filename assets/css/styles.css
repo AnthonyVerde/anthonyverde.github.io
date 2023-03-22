@@ -190,15 +190,15 @@ table {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: #000000cb;
+    background: hsla(0, 0%, 0%, 0.75);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
     height: 50px;
-    padding: 30px;
+    padding: 30px 30px 30px 40px;
     width: 100%;
     z-index: 10;
     font-weight: light;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     transition: ease .2s;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
@@ -214,10 +214,10 @@ table {
 }
 
 .logo>a {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     color: white;
     transition: .3s;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.8em;
     letter-spacing: -1px;
 
@@ -331,7 +331,7 @@ table {
 
 #greeting.morning h1 {
     background-image: linear-gradient(160deg, #ffea6d, #ff5a85);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -341,7 +341,7 @@ table {
 
 #greeting.afternoon h1 {
     background-image: linear-gradient(300deg, #bcffca, #54ddf2);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -351,7 +351,7 @@ table {
 
 #greeting.evening h1 {
     background-image: linear-gradient(236deg, #563e9e, #f64896);
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -463,8 +463,8 @@ table {
 }
 
 h1 {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
     font-size: 60px;
     color: #747474;
     padding: 0px;
@@ -484,7 +484,7 @@ h1 {
     color: white;
     font-size: 24px;
     font-weight: light;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     line-height: 1.5em;
 }
 
@@ -515,6 +515,8 @@ h1 {
 
 #section2 {
     padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #contact-form {
@@ -565,9 +567,10 @@ h1 {
 
 .pullquote {
     width: 100%;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
     font-style: italic;
+    font-weight: 200;
     color: gray;
     line-height: 1.5em;
     margin-bottom: 30px;
@@ -577,9 +580,10 @@ h1 {
 
 .quote-credit {
     width: 100%;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-style: italic;
+    font-weight: 300;
     color: gray;
     line-height: 1.5em;
     margin-bottom: 100px;
@@ -593,7 +597,7 @@ h1 {
 
 #content-para p {
     font-weight: light;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     line-height: 1.5em;
     font-size: .9rem;
     margin-bottom: 30px;
@@ -605,7 +609,7 @@ h1 {
 
 #about-me-content p {
     font-weight: light;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     line-height: 2.25em;
     font-size: .9rem;
     margin-bottom: 30px;
@@ -659,7 +663,7 @@ h1 {
 
 .btn {
     background-color: #d4d93e;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 12px;
     border-radius: 20px;
     text-align: center;
@@ -731,9 +735,9 @@ li a {
 }
 
 .img-description h3 {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 300;
     text-align: left;
     padding-top: 10px;
     padding-bottom: 5px;
@@ -755,8 +759,9 @@ li a {
 /* PROJECT PAGE STYLES */
 
 .h2-white {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 24px;
+    font-weight: 200;
     color: white;
     padding: 0px;
     margin-bottom: 2px;
@@ -764,7 +769,7 @@ li a {
 }
 
 h2 {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #747474;
     padding: 0px;
@@ -808,7 +813,7 @@ h2 {
 }
 
 .img-caption {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 10px;
     padding-top: 10px;
     text-align: center;
@@ -877,7 +882,7 @@ video:focus {
 #contact-info {
     text-align: left;
     margin-bottom: 60px;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: .8rem;
     color: #747474;
 }
@@ -896,7 +901,7 @@ video:focus {
 }
 
 form {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: #747474;
     line-height: 24px;
@@ -983,7 +988,6 @@ textarea:focus::placeholder {
     margin: auto 0;
     background: black;
     padding-top: 25px;
-    opacity: .8;
 }
 
 .footer-wrapper {
@@ -992,7 +996,7 @@ textarea:focus::placeholder {
 }
 
 .footer-main {
-    max-width: 950px;
+    width: 100%;
     margin: auto;
 }
 
@@ -1006,9 +1010,8 @@ textarea:focus::placeholder {
 .footer-content-top a {
     margin-left: 10px;
     margin-right: 10px;
-    opacity: .7;
     transition: .5s ease;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: white;
 }
@@ -1022,22 +1025,21 @@ textarea:focus::placeholder {
 
 .footer-left {
     text-align: left;
-    padding: 15px;
+    padding: 30px;
 }
 
 .footer-right {
     text-align: right;
-    padding: 15px;
+    padding: 30px;
 }
 
 footer {
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 12px;
     color: #fff;
     text-align: right;
     margin-top: 30px;
     margin-bottom: 10px;
-    opacity: .7;
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -1154,6 +1156,8 @@ footer {
 
     #section2 {
         padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #top-nav-wrapper {
@@ -1179,7 +1183,7 @@ footer {
         font-weight: 800;
         color: white;
         font-size: 1.25rem;
-        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+        font-family: 'Poppins', Helvetica, Arial, sans-serif;
         line-height: .4rem;
         display: block;
     }
