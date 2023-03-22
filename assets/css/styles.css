@@ -433,7 +433,7 @@ table {
 #text-container {
     position: absolute;
     top: 30%;
-    max-width: 520px;
+    max-width: 500px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -1057,6 +1057,16 @@ footer {
 
 @media screen and (max-width: 767px) {
 
+    #greeting.morning h1 {
+        padding-bottom: 13px;
+    }
+    #greeting.afternoon h1 {
+        padding-bottom: 13px;
+    }
+    #greeting.evening h1 {
+        padding-bottom: 13px;
+    }
+
     #header-container-home.morning {
         background-image: url('../images/home-page-morning-mobile.png') !important;
     }
@@ -1336,6 +1346,11 @@ footer {
 
     .modal-square {
         max-width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #text-container {
+        top: 12%;
     }
 }
 
