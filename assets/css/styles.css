@@ -204,6 +204,7 @@ html {
     display: block;
     height: 100px;
     margin-bottom: -15px;
+    transition: all ease .3s;
 }
 
 .top-nav {
@@ -213,6 +214,7 @@ html {
     position: fixed;
     z-index: 10;
     backdrop-filter: blur(10px);
+    transition: all ease .3s;
 }
   
 .top-nav #myLinks {
@@ -872,9 +874,10 @@ span.h2text:after {
     transition: ease .3s;
 }
 
-
-
 /* NEW PORTFOLIO STYLES */
+#portfolio-content {
+    justify-content: center;
+}
 .portfolio_item {
     margin: 0 15px 30px;
     overflow: hidden;
@@ -1095,7 +1098,7 @@ span.h2text:after {
     line-height: 35px;
     letter-spacing: -2px;
     max-width: 300px;
-    padding-left: 30px;
+    padding-left: 10px;
     color: #FFF;
     z-index: 2;
     position: absolute;
@@ -1112,7 +1115,7 @@ span.h2text:after {
     position: absolute;
     font-weight: 700;
     width: 400px;
-    left: 50px;
+    left: 30px;
     bottom: 30px;
     transition: ease .3s;
 }
@@ -1272,6 +1275,8 @@ form {
     width: 100%;
     text-align: left;
     margin-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 input {
@@ -1544,13 +1549,21 @@ footer {
     #h1-about {
         line-height: 17vw !important;
     }
+}
 
 @media only screen and (max-width: 767px) {
+    #about-me-content {
+        padding-left: 20px;
+    }
+
+    #contact-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .footer-left {
         justify-content: center;
         padding: 0;
-
-
     }
 
     .footer-right {
@@ -1561,4 +1574,33 @@ footer {
     }
 }
 
+@media only screen and (max-width: 575px) {
+    .top-nav {
+        height: 75px;
+        transition: all ease .3s;
+    }
+    .top-nav .ag-monogram {
+        margin-left: 10px; 
+        width: 75px;
+        height: 75px;
+        transition: all ease .3s;
+    }
+
+    .top-nav a.menu {
+        height: 75px;
+        transition: all ease .3s;
+    }
+
+    .down-arrow-home, .down-arrow-about, .down-arrow-contact {
+        width: 45px;
+        height: 45px;
+        left: -10px;
+        transition: ease .3s;
+    }
+
+    #section2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
+
