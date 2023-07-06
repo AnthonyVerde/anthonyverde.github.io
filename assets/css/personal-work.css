@@ -197,10 +197,11 @@ table {
 }
 
 
-#section2 {
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+#personal-work-section {
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: ease .3s;
 }
 
 #main-content-wrapper {
@@ -349,7 +350,7 @@ li a {
 
 
 .modal-square {
-    max-width: 700px;
+    max-width: 90vh !important;
 }
 
 .modal-body img {
@@ -369,11 +370,6 @@ li a {
         max-width: 90%;
     }
 
-    #section2 {
-        padding-top: 100px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
 
     #top-nav-wrapper {
         padding-top: 5px;
@@ -413,5 +409,14 @@ li a {
 
     .modal-square {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #personal-work-section {
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        transition: ease .3s;
     }
 }
