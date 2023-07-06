@@ -45,6 +45,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300;0,5..1200,400;0,5..1200,500;0,5..1200,600;0,5..1200,700;0,5..1200,800;0,5..1200,900;1,5..1200,300;1,5..1200,400;1,5..1200,500;1,5..1200,600;1,5..1200,700;1,5..1200,800;1,5..1200,900&display=swap" rel="stylesheet">
 
     <!---SCRIPTS-->
     <script src="assets/javascript/page-transition.js"></script>
@@ -63,7 +66,7 @@
             $("#universal-footer").load("universal-footer.html");
         });
     </script>
-
+    <script src="assets/javascript/parallax.js"></script>
     <script src="assets/javascript/page-transition.js"></script>
     <script src="assets/javascript/scroll-down.js"></script>
     <script src="assets/javascript/greeting.js"></script>
@@ -83,50 +86,56 @@
 
         <!---HEADER TEXT AREA--->
         <div class="row" id="header-text">
-            <div class="col-12" id="text-container">
-                <h1>Meet the designer</h1>
-                <h2 class="h2-white">More than just a guy who creates stuff.</h2>
+            <div class="col-10" id="text-container">
+                <h1 id="h1-about">meet the designer</h1>
+                <h2 id="h2-about">
+                    <span class="h2text about-text_1">dedicated</span>
+                    <span class="h2text about-text_2">passionate</span>
+                    <span class="h2text about-text_3">driven</span>
+                    <span class="h2text about-text_4">knows too many</span>
+                    <span class="h2text about-text_5">dad jokes</span>
+                </h2>
+            </div>
+            <div class="header-img-container">
+                    <img class="header-bg-img-about">
             </div>
         </div>
-        <div class="row scroll-down-btn">
-            <a href="#section2" class="scroll-down">
-                <img src="assets/images/scroll-down-arrow-48x48.svg" alt="Scroll down arrow">
-            </a>
+        <div class="row" id="down-arrow-container">
+            <div class="col-10">
+                <a href="#section2" class="down-arrow-about">
+                    <!--div class="row down-arrow-home">   </div-->    
+                </a>
+            </div>
         </div>
-
     </div>
 
     <!--- MAIN CONTENT --->
     <div class="container-fluid" id="main-content-container">
 
         <section id="section2">
-            <div class="row" id="main-content-wrapper">
+            <div class="row" id="about-content-wrapper">
 
                 <div class="col-xs-12" id="main-content">
                     <div class="row" id="content-row">
-                        <div class="col-sm-12 col-md-5">
-                            <p class="pullquote">
-                                “If what you’re doing doesn’t make you happy, you’re doing the wrong thing.”
-                            </p>
-                            <p class="quote-credit">
-                                - Bob Ross
-                            </p>
+                        <div class="col-sm-12 col-md-5" id="about-me-col">
+                            <img class="portrait">
                         </div>
-                        <div class="col-sm-12 col-md-6" id="about-me-content">
+                        
+                        <div class="col-sm-12 col-md-7" id="about-me-content">
                             <p>
-                                My name's Anthony Green — you can call me Tony.
+                                Hi there! I'm Anthony Green — but I usually go by Tony.
                             </p>
                             <p>
-                                I’m a multi-disciplined designer specializing in web design, branding, graphic design, and illustration. I have nearly 20 years of experience in the industry and have enjoyed many of those years as an in-house brand designer with some of the biggest insurance brands in Canada. I am well versed in creating hifi mockups, coding pixel-perfect pages, working with design systems, and designing engaging online content. I’m passionate about what I do, enjoy a good laugh, and I love collaborating with other creative folks.
+                                I’m a multi-disciplined designer located in beautiful Muskoka, Ontario. I have nearly 20 years of experience in the industry, specializing in web and graphic design, brand identity, and digital illustration. I love working with folks with unique ideas and bringing their vision to life. 
                             </p>
                             <p>
-                                When I’m not at my desk, you’ll find me outdoors with my wife and kids, usually getting our hands dirty in the garden or going for a hike; tinkering in the workshop; or building/fixing something around the house. I love to learn and I’m always up for new and exciting opportunities. 
+                                When I’m not at my desk, you’ll find me enjoying the outdoors with my wife and kids, usually getting our hands dirty in the garden or going for a hike. I'm pretty handy, too, and will jump at any opportunity to tinker in the garage or build something in the workshop.
                             </p>
-                            <p>
-                                <a class="inline-link" href="/contact.html">Give me a shout</a> to see how we can work together!
+                            <p>If you're interested in discussing that next project or need some creative direction, <a class="inline-link" href="/contact.html">give me a shout</a> to see how we can work together!
                             </p>
 
                         </div>
+                        
 
                     </div>
                 </div>

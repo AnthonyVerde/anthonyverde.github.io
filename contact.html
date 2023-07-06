@@ -45,6 +45,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300;0,5..1200,400;0,5..1200,500;0,5..1200,600;0,5..1200,700;0,5..1200,800;0,5..1200,900;1,5..1200,300;1,5..1200,400;1,5..1200,500;1,5..1200,600;1,5..1200,700;1,5..1200,800;1,5..1200,900&display=swap" rel="stylesheet">
 
     <!---SCRIPTS-->
     <script src="assets/javascript/page-transition.js"></script>
@@ -63,7 +66,7 @@
             $("#universal-footer").load("universal-footer.html");
         });
     </script>
-
+    <script src="assets/javascript/parallax.js"></script>
     <script src="assets/javascript/scroll-down.js"></script>
     <script src="assets/javascript/page-transition.js"></script>
     <script src="assets/javascript/greeting.js"></script>
@@ -85,28 +88,45 @@
 
         <!---HEADER TEXT AREA--->
         <div class="row" id="header-text">
-            <div class="col-12" id="text-container">
-                <h1>Let’s chat!</h1>
-                <h2 class="h2-white">Got a new project in mind? I want to hear from you!</h2>
+            <div class="col-10" id="text-container">
+                <h1 id="h1-contact">let’s chat</h1>
+                <h2 id="h2-contact">
+                    <span class="h2text contact-text_1">send an email</span>
+                    <span class="h2text contact-text_2">shoot me a text</span>
+                    <span class="h2text contact-text_3">give me a call</span>
+                    <span class="h2text contact-text_4">carrier pigeon?</span>
+                </h2>
+            </div>
+            <div class="header-img-container">
+                    <img class="header-bg-img-contact">
             </div>
         </div>
-        <div class="row scroll-down-btn">
-            <a href="#section2" class="scroll-down">
-                <img src="assets/images/scroll-down-arrow-48x48.svg" alt="Scroll down arrow">
-            </a>
+        <div class="row" id="down-arrow-container">
+            <div class="col-10">
+                <a href="#section2" class="down-arrow-contact">
+                    <!--div class="row down-arrow-home">   </div-->    
+                </a>
+            </div>
         </div>
-
     </div>
 
     <!--- MAIN CONTENT --->
     <div class="container-fluid" id="main-content-container">
 
         <section id="section2">
-            <div class="row" id="main-content-wrapper">
+            <div class="row" id="contact-content-wrapper">
 
-                <div class="col-12" id="main-content">
+                <div class="col-10" id="main-content">
                     <div class="row" id="content-row">
                         <div class="col-12" id="content-para">
+                            <div id="contact-content">
+                                <p>
+                                    Have a question? Interested in working together? Got a funny story? Whatever it is, I'd like to hear from you. Fill out the form below!
+                                </p>
+    
+                            </div>
+
+
                             <form name="contact-form" action="https://formspree.io/f/xeqpngll" method="post">
                                 <input type="text" id="name-input" name="name" placeholder="Name" required>
 

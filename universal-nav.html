@@ -1,16 +1,42 @@
-<section class="top-nav" id="myHeader">
+<div class="top-nav">
     <div class="logo">
-        <a href="/index.html">
-            <img class="ag-monogram" src="/assets/images/ag-monogram.svg">
-            <p class="agd-wordmark">anthony green design</p>
-        </a>
+        <a href="/index.html" class="ag-monogram"></a>
     </div>
-    <input id="menu-toggle" type="checkbox" />
-    <label class='menu-button-container' for="menu-toggle">
-        <div class='menu-button'></div>
-    </label>
-    <ul class="menu">
-        <li><a href="/about.html">About</a></li>
-        <li><a href="/contact.html">Contact</a></li>
-    </ul>
-</section>
+    <div id="myLinks">
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+    </div>
+    <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+        <p class="menu-link">Menu</p>
+    </a>
+</div>
+
+
+<!--section class="top-nav" id="myHeader">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="/index.html">
+                <div class="ag-monogram"></div>
+            </a>
+        </div>
+        
+    </div>
+    <div id="myLinks">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+            <p class="menu-link">Menu</p>
+        </a>
+</section-->
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+</script>
