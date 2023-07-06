@@ -291,6 +291,7 @@ html {
     margin: auto;
     text-align: left;
     min-height: 100vh;
+    transition: all ease .3s;
 }
 
 .col {
@@ -1594,6 +1595,11 @@ footer {
 
     .top-nav a.menu {
         height: 75px;
+        transition: all ease .3s;
+    }
+
+    #header-text {
+        padding-bottom: 100px;
         transition: all ease .3s;
     }
 
