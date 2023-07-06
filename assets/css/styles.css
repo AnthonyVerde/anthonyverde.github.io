@@ -1306,6 +1306,7 @@ input:focus::placeholder {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #ccc;
+    padding-left: 10px;
 }
 
 #email-input {
@@ -1313,6 +1314,7 @@ input:focus::placeholder {
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #ccc;
+    padding-left: 10px;
 }
 
 textarea {
