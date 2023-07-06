@@ -818,6 +818,10 @@ span.h2text:after {
     margin-bottom: 30px;
 }
 
+#content-row {
+    padding-bottom: 100px;
+}
+
 #about-me-content {
     padding-left: 40px;
     margin-bottom: 100px;
@@ -1182,7 +1186,7 @@ span.h2text:after {
 }
 
 .project-img {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     mix-blend-mode: multiply;
 }
 
@@ -1199,7 +1203,7 @@ span.h2text:after {
 }
 
 .project-img-border {
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .project-img-border img {
@@ -1601,6 +1605,15 @@ footer {
     #section2 {
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    #content-para {
+        padding-left: 20px;
+    }
+
+    .project-img, .project-img-border {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
