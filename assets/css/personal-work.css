@@ -138,9 +138,7 @@ table {
     padding-bottom: 40px;
 }
 
-
 /* PAGE TRANSITION STYLES */
-
 .animate-in {
     -webkit-animation: fadeIn .5s ease-in;
     animation: fadeIn .5s ease-in;
@@ -172,9 +170,7 @@ table {
     }
 }
 
-
 /* BEGIN CUSTOM CSS */
-
 .container-fluid {
     padding: 0;
 }
@@ -196,7 +192,6 @@ table {
     padding: 0 !important;
 }
 
-
 #personal-work-section {
     padding-top: 100px;
     padding-left: 40px;
@@ -209,10 +204,7 @@ table {
     margin: auto;
 }
 
-
-
 /* PORTFOLIO STYLES */
-
 #portfolio {
     margin: auto;
     margin-top: 10px;
@@ -334,7 +326,6 @@ li a {
 }
 
 /* LIGHTBOX MODAL STYLES */
-
 #lightbox .modal-content {
     display: inline-block;
     text-align: center;
@@ -348,7 +339,6 @@ li a {
     text-align: center;
 }
 
-
 .modal-square {
     max-width: 90vh !important;
 }
@@ -360,8 +350,6 @@ li a {
 .modal-header {
     border-bottom: none;
 }
-
-
     .modal-dialog {
         max-width: 100%;
     }
@@ -390,9 +378,6 @@ li a {
         margin: 10px;
         padding-bottom: 40px;
     }
-
-
-
 
 @media screen and (max-width: 605px) {
     #cl-insta {
