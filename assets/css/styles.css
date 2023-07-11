@@ -579,7 +579,7 @@ span.h2text:after {
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    background: linear-gradient(to top, #1B443D, #0b233271), url('/assets/images/homepage-hero.jpg');
+    background: linear-gradient(to top, #0a7586, #40d2c138), url('/assets/images/homepage-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -591,7 +591,7 @@ span.h2text:after {
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    background: linear-gradient(to top, #1B443D, #0b233271), url('/assets/images/about-me/about-me-hero.jpg');
+    background: linear-gradient(to top, #0a7586, #40d2c138), url('/assets/images/about-me/about-me-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -603,7 +603,7 @@ span.h2text:after {
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    background: linear-gradient(to top, #1B443D, #0b233271), url('/assets/images/contact/contact-hero.jpg');
+    background: linear-gradient(to top, #0a7586, #40d2c138), url('/assets/images/contact/contact-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
