@@ -3,10 +3,27 @@
         <a href="/index.html" class="ag-monogram"></a>
     </div>
     <div id="myLinks">
-        <a href="/about.html" class="nav-link">About</a>
-        <a href="/contact.html" class="nav-link">Contact</a>
+        <ul>
+            <li>
+                <a href="javascript:void(0);" class="nav-link work-link" onclick="submenuFunction()">Work</a>
+                
+                <ul class="sub-menu" id="work-menu">
+                    <li><a href="compassion.html" class="sub-nav-link">Compassion Canada</a></li>
+                    <li><a href="canada-life.html" class="sub-nav-link">Canada Life</a></li>
+                    <li><a href="economical.html" class="sub-nav-link">Economical Insurance</a></li>
+                    <li><a href="belwood.html" class="sub-nav-link">Belwood Poultry</a></li>
+                    <li><a href="personal-work.html" class="sub-nav-link">Personal Work</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li>
+                <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
+        </ul>
     </div>
-    <a href="javascript:void(0);" class="menu" onclick="myFunction()">
+    <a href="javascript:void(0);" class="menu" onclick="menuFunction()">
         <p class="menu-link">Menu</p>
     </a>
 </div>
@@ -31,7 +48,7 @@
 </section-->
 
 <script>
-    function myFunction() {
+    function menuFunction() {
       var x = document.getElementById("myLinks");
       if (x.style.display === "block") {
         x.style.display = "none";
@@ -39,4 +56,14 @@
         x.style.display = "block";
       }
     }
+
+    function submenuFunction() {
+      var x = document.getElementById("work-menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
 </script>

@@ -197,10 +197,10 @@ html {
 .top-nav {
     height: 100px;
     width: 100%;
-    background-color: #0b2332ec;
+    background-color: #0b2332;
     position: fixed;
     z-index: 10;
-    backdrop-filter: blur(10px);
+    /*backdrop-filter: blur(10px);*/
     transition: all ease .3s;
 }
 
@@ -224,29 +224,33 @@ html {
   
 .top-nav #myLinks {
     display: none;
-    background-color: #0B2332;
-    animation: dropdown .3s ease;
+    background-color: #0b2332ec;
+    animation: opacityFadeIn .3s ease;
+    backdrop-filter: blur(10px);
+    height: 100vh;
 }
 
-@keyframes dropdown {
-    0% {
-       transform: translate(0px, -100px);
-    }
+@keyframes opacityFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
-.top-nav #myLinks a {
-    color:#E9C46A;
-    font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
+.nav-link {
+    color: #7DC1B9;
+    font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: lowercase;
     padding-left: 60px;
     display: flex;
+    justify-content: end;
     align-items: center;
-    justify-content: center;
+    height: 15vh;
+    position: relative;
+    z-index: 10;
 }
 
-.top-nav #myLinks a:hover {
+.nav-link:hover {
     background-color: #E76F51;
     transition: .3s ease;
     color: #2F4858;
@@ -256,11 +260,8 @@ html {
 .top-nav a {
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    display: block;
-    height: 150px;
-}
 
+}
 
 .top-nav a.menu {
     color: #E9C46A;
@@ -287,6 +288,38 @@ html {
     color: #2F4858;
     transition: .3s ease;
 }
+
+/* SUBMENU STYLES */
+.sub-menu {
+    display: none;
+    animation: dropdown .3s ease;
+}
+
+.sub-nav-link {
+    color: #7DC1B9;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 7vh;
+}
+
+.sub-nav-link:hover {
+    background-color: #E76F51;
+    transition: .3s ease;
+    color: #2F4858;
+    text-decoration: none;
+}
+
+@keyframes dropdown {
+    0% {
+       transform: translate(0px, -100px);
+    }
+}
+
 
 
 /* HEADER STYLES */
