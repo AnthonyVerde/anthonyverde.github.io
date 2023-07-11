@@ -732,11 +732,10 @@ span.h2text:after {
     position: relative;
     width: 100%;
     height: 350px;
-
 }
 
 .compassion {
-    background: url('/assets/images/portfolio-imgs/compassion/compassion-portfolio-img-gray.jpg');
+    background-image: url('/assets/images/portfolio-imgs/compassion/compassion-portfolio-img-gray.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: top;
@@ -744,7 +743,7 @@ span.h2text:after {
 }
 
 .compassion:hover {
-    background: url('/assets/images/portfolio-imgs/compassion/compassion-portfolio-img.jpeg');
+    background-image: url('/assets/images/portfolio-imgs/compassion/compassion-portfolio-img.jpeg');
     background-size: cover;
     background-position-x: left;
     background-position-y: top;
@@ -752,7 +751,7 @@ span.h2text:after {
 }
 
 .canada-life {
-    background: url('/assets/images/portfolio-imgs/canada-life/canada-life-portfolio-img-gray.jpg');
+    background-image: url('/assets/images/portfolio-imgs/canada-life/canada-life-portfolio-img-gray.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
@@ -760,7 +759,7 @@ span.h2text:after {
 }
 
 .canada-life:hover {
-    background: url('/assets/images/portfolio-imgs/canada-life/canada-life-portfolio-img.jpg');
+    background-image: url('/assets/images/portfolio-imgs/canada-life/canada-life-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
@@ -768,7 +767,7 @@ span.h2text:after {
 }
 
 .economical{
-    background: url('/assets/images/portfolio-imgs/economical/economical-portfolio-img-gray.jpg');
+    background-image: url('/assets/images/portfolio-imgs/economical/economical-portfolio-img-gray.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: top;
@@ -776,7 +775,7 @@ span.h2text:after {
 }
 
 .economical:hover {
-    background: url('/assets/images/portfolio-imgs/economical/economical-portfolio-img.jpg');
+    background-image: url('/assets/images/portfolio-imgs/economical/economical-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: top;
@@ -784,7 +783,7 @@ span.h2text:after {
 }
 
 .belwood{
-    background: url('/assets/images/portfolio-imgs/belwood/belwood-portfolio-img-gray.jpg');
+    background-image: url('/assets/images/portfolio-imgs/belwood/belwood-portfolio-img-gray.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
@@ -792,7 +791,7 @@ span.h2text:after {
 }
 
 .belwood:hover {
-    background: url('/assets/images/portfolio-imgs/belwood/belwood-portfolio-img.jpg');
+    background-image: url('/assets/images/portfolio-imgs/belwood/belwood-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
@@ -800,7 +799,7 @@ span.h2text:after {
 }
 
 .personal{
-    background: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img-gray.jpg');
+    background-image: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img-gray.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
@@ -808,7 +807,7 @@ span.h2text:after {
 }
 
 .personal:hover {
-    background: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img.jpg');
+    background-image: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
