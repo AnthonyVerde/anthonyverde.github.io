@@ -241,13 +241,13 @@ html {
     font-size: 3.5rem;
     font-weight: bold;
     text-transform: lowercase;
-    padding-left: 60px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     height: 15vh;
     position: relative;
     z-index: 10;
+    transition: .3s ease;
 }
 
 .nav-link:hover {
@@ -261,6 +261,10 @@ html {
     padding: 14px 16px;
     text-decoration: none;
 
+}
+
+.menu {
+    transition: .3s ease;
 }
 
 .top-nav a.menu {
@@ -302,7 +306,7 @@ html {
     font-weight: bold;
     padding-left: 60px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     height: 7vh;
 }
