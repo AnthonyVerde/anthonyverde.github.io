@@ -357,7 +357,7 @@ html {
 #text-container h1 {
     font-size: 14.5rem;
     font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: #E76F51;
     font-weight: 900;
     font-style: normal;
     line-height: 48.5%;
@@ -367,7 +367,7 @@ html {
 
 #text-container h2 { 
     font-size: 4.75rem;
-	color: white;
+	color: #7DC1B9;
 	font-family: 'Poppins', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	line-height: 97px;
@@ -445,38 +445,7 @@ html {
     bottom: -130px;
 }
   
-span.h2text:after {
-    content: " ";
-    background-color: #7DC1B9;
-    position: absolute;
-    top: 20px;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    z-index: -1;
-  }
 
-.about-text_1:after, .about-text_2:after, .about-text_3:after, .about-text_4:after, .about-text_5:after {
-    content: " ";
-    background-color: #E76F51 !important;
-    position: absolute;
-    top: 20px;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    z-index: -1;
-  }
-
-  .contact-text_1:after, .contact-text_2:after, .contact-text_3:after, .contact-text_4:after {
-    content: " ";
-    background-color: #E9C46A !important;
-    position: absolute;
-    top: 20px;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    z-index: -1;
-  }
 
 @keyframes hometext4 {
     0%, 25%, 50%, 70%, 100% {
@@ -616,7 +585,7 @@ span.h2text:after {
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    background: linear-gradient(to top, #0a7586, #40d2c138), url('/assets/images/homepage-hero.jpg');
+    background: linear-gradient(to top, #0f2a39, #162a3bcf), url('/assets/images/homepage-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -628,7 +597,7 @@ span.h2text:after {
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    background: linear-gradient(to top, #0a7586, #40d2c138), url('/assets/images/about-me/about-me-hero.jpg');
+    background: linear-gradient(to top, #0f2a39, #162a3bcf), url('/assets/images/about-me/about-me-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -640,7 +609,7 @@ span.h2text:after {
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    background: linear-gradient(to top, #0a7586, #40d2c138), url('/assets/images/contact/contact-hero.jpg');
+    background: linear-gradient(to top, #0f2a39, #162a3bcf), url('/assets/images/contact/contact-hero.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -672,7 +641,7 @@ span.h2text:after {
     width: 100%;
 }
 
-.down-arrow-home {
+.down-arrow {
     position: absolute;
     bottom: 60px;
     animation: jumpInfinite 1.5s infinite;
@@ -688,53 +657,9 @@ span.h2text:after {
     transition: ease .3s;
 }
 
-.down-arrow-home:hover {
+.down-arrow:hover {
     cursor: pointer;
     border-color: #e76f51;
-    transition: ease .3s;
-}
-
-.down-arrow-about {
-    position: absolute;
-    bottom: 60px;
-    animation: jumpInfinite 1.5s infinite;
-    z-index: 5;
-    content: " ";
-    left: 25px;
-    width: 63px;
-    height: 63px;
-    border-bottom: 10px solid #7DC1B9;
-    border-right: 10px solid #7DC1B9;
-    border-radius: 3px;
-    transform: rotateZ(45deg);
-    transition: ease .3s;
- }
-
-.down-arrow-about:hover {
-    cursor: pointer;
-    border-color: #E9C46A;
-    transition: ease .3s;
-}
-
-.down-arrow-contact {
-    position: absolute;
-    bottom: 60px;
-    animation: jumpInfinite 1.5s infinite;
-    z-index: 5;
-    content: " ";
-    left: 25px;
-    width: 63px;
-    height: 63px;
-    border-bottom: 10px solid #E76F51;
-    border-right: 10px solid #E76F51;
-    border-radius: 3px;
-    transform: rotateZ(45deg);
-    transition: ease .3s;
-}
-
-.down-arrow-contact:hover {
-    cursor: pointer;
-    border-color: #7DC1B9;
     transition: ease .3s;
 }
  
