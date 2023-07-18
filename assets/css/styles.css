@@ -1526,7 +1526,7 @@ footer {
         transition: all ease .3s;
     }
 
-    .down-arrow-home, .down-arrow-about, .down-arrow-contact {
+    .down-arrow {
         width: 45px;
         height: 45px;
         left: -10px;
