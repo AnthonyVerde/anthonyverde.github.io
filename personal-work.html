@@ -51,27 +51,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="assets/javascript/page-transition.js"></script>
     <script src="assets/javascript/scroll-down.js"></script>
     <script src="assets/javascript/image-modal.js"></script>
     <script src="assets/javascript/video-modal.js"></script>
+    <script src="assets/javascript/preloader.js"></script>
     <script>
         $(function () {
+            $(".loader-container").load("preloader.html");
             $("#universal-nav").load("universal-nav.html");
             $("#universal-footer").load("universal-footer.html");
         });
     </script>
 </head>
 
-<body class="animate-in">
+<body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XS9NT5" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    <!--PRELOADER-->
+    <div class="loader-container"></div>
+
     <!--- HEADER --->
     <div class="container-fluid">
-
         <!---NAVBAR-->
         <div class="row" id="universal-nav"></div>
     </div>

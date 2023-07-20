@@ -67,7 +67,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300;0,5..1200,400;0,5..1200,500;0,5..1200,600;0,5..1200,700;0,5..1200,800;0,5..1200,900;1,5..1200,300;1,5..1200,400;1,5..1200,500;1,5..1200,600;1,5..1200,700;1,5..1200,800;1,5..1200,900&display=swap" rel="stylesheet">
 
     <!---SCRIPTS-->
-    <script src="assets/javascript/page-transition.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -77,22 +76,26 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script src="assets/javascript/parallax.js"></script>
-    <script src="assets/javascript/page-transition.js"></script>
     <script src="assets/javascript/scroll-down.js"></script>
+    <script src="assets/javascript/preloader.js"></script>
     <script>
         $(function () {
+            $(".loader-container").load("preloader.html");
             $("#universal-nav").load("universal-nav.html");
             $("#universal-footer").load("universal-footer.html");
         });
     </script>
-
 </head>
 
-<body class="animate-in">
+<body>
+    
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XS9NT5" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    
+    <!--PRELOADER-->
+    <div class="loader-container"></div>
 
     <div class="container-fluid" id="header-container-home">
 

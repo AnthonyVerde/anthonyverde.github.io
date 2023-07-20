@@ -139,45 +139,60 @@ table {
     padding-bottom: 40px;
 }
 
-
-/* PAGE TRANSITION STYLES */
-
-.animate-in {
-    -webkit-animation: fadeIn .5s ease-in;
-    animation: fadeIn .5s ease-in;
-}
-
-.animate-out {
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s;
-    opacity: 0;
-}
-
-@-webkit-keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
-}
-
-
 /* BEGIN CUSTOM CSS */
 html {
     scroll-behavior: smooth;
 }
+
+.loader-container {
+    background-color: #0B2332;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    position: fixed;
+}
+
+.loader {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.loaderText {
+    font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
+    fill: #E76F51;
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: 4.5px;
+}
+
+#rotatingLoader {
+    animation-name: rotate-circle;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.disppear{
+    animation:vanish .5s forwards;
+}
+
+@keyframes vanish {
+    100% {
+        opacity:0;
+        visibility:hidden;
+    }
+}
+
+@keyframes rotate-circle {
+    to {
+       transform: rotate(1turn);
+    }
+}
+
 .container-fluid {
     padding: 0;
 }
