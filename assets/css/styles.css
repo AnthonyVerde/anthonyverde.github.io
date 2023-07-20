@@ -215,7 +215,6 @@ html {
     background-color: #0b2332;
     position: fixed;
     z-index: 10;
-    /*backdrop-filter: blur(10px);*/
     transition: all ease .3s;
 }
 
@@ -712,14 +711,8 @@ html {
 }
 
 .compassion {
-    background-image: url('/assets/images/portfolio-imgs/compassion/compassion-portfolio-img-gray.jpg');
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: top;
-    transition: ease .3s;
-}
-
-.compassion:hover {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     background-image: url('/assets/images/portfolio-imgs/compassion/compassion-portfolio-img.jpeg');
     background-size: cover;
     background-position-x: left;
@@ -727,15 +720,15 @@ html {
     transition: ease .3s;
 }
 
-.canada-life {
-    background-image: url('/assets/images/portfolio-imgs/canada-life/canada-life-portfolio-img-gray.jpg');
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: center;
+.compassion:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
     transition: ease .3s;
 }
 
-.canada-life:hover {
+.canada-life {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     background-image: url('/assets/images/portfolio-imgs/canada-life/canada-life-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
@@ -743,15 +736,15 @@ html {
     transition: ease .3s;
 }
 
-.economical{
-    background-image: url('/assets/images/portfolio-imgs/economical/economical-portfolio-img-gray.jpg');
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: top;
+.canada-life:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
     transition: ease .3s;
 }
 
-.economical:hover {
+.economical{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     background-image: url('/assets/images/portfolio-imgs/economical/economical-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
@@ -759,15 +752,15 @@ html {
     transition: ease .3s;
 }
 
-.belwood{
-    background-image: url('/assets/images/portfolio-imgs/belwood/belwood-portfolio-img-gray.jpg');
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: center;
+.economical:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
     transition: ease .3s;
 }
 
-.belwood:hover {
+.belwood{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
     background-image: url('/assets/images/portfolio-imgs/belwood/belwood-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
@@ -775,8 +768,16 @@ html {
     transition: ease .3s;
 }
 
+.belwood:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    transition: ease .3s;
+}
+
 .personal{
-    background-image: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img-gray.jpg');
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-image: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img.jpg');
     background-size: cover;
     background-position-x: left;
     background-position-y: center;
@@ -784,10 +785,8 @@ html {
 }
 
 .personal:hover {
-    background-image: url('/assets/images/portfolio-imgs/illustration/personal-work-portfolio-img.jpg');
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: center;
+    filter: none;
+    -webkit-filter: grayscale(0);
     transition: ease .3s;
 }
 
@@ -1156,7 +1155,9 @@ video:focus {
 }
 
 .portrait {
-    background-image: url('/assets/images/about-me/1566827389414-bw.jpg');
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-image: url('/assets/images/about-me/1566827389414.jpg');
     background-size: cover;
     min-width: 250px;
     height: 250px;
@@ -1166,8 +1167,8 @@ video:focus {
 }
 
 .portrait:hover {
-    background-image: url('/assets/images/about-me/1566827389414.jpg');
-    background-size: cover;
+    filter: none;
+    -webkit-filter: grayscale(0);
     transition: ease .3s;
 }
 
