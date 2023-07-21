@@ -226,7 +226,7 @@ html {
 
 .top-nav .ag-monogram {
     width: 100px;
-    margin-left: 60px;
+    margin-left: 30px;
     background-image: url(/assets/images/ag-monogram-white.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -284,7 +284,7 @@ html {
 .top-nav a.menu {
     color: #E9C46A;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: bold;
     text-transform: uppercase;
     width: 100px;
@@ -1289,6 +1289,8 @@ textarea:focus::placeholder {
 
 .footer-content-top {
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-content-top a {
@@ -1296,6 +1298,19 @@ textarea:focus::placeholder {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 18px;
     color: #E9C46A;
+    margin: 10px;
+}
+
+.contact-icon {
+    width: 32px;
+    fill: #E9C46A;
+    transition: .3s ease;
+}
+
+.contact-icon:hover {
+    width: 32px;
+    fill: #E76F51;
+    transition: .3s ease;
 }
 
 .footer-content-top a:hover {
@@ -1306,7 +1321,7 @@ textarea:focus::placeholder {
 
 .footer-left {
     text-align: left;
-    padding-left: 60px;
+    padding-left: 30px;
     display: flex;
     align-items: center;
 }
@@ -1334,7 +1349,7 @@ footer {
     width: 100%;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-size: 12px;
-    color: #F5F5F5;
+    color: #7DC1B9;
     text-align: right;
     margin-top: 30px;
     margin-bottom: 60px;
@@ -1387,12 +1402,17 @@ footer {
         height: 100%;
         top: 0;
         object-fit: none;
-        object-position: right;
+ 
     }
 
     #compassion-portfolio-img {
         height: 100% !important;
     }
+
+    #cl-portfolio-img {
+        object-position: right;
+    }
+
 }
 
 @media only screen and (max-width: 575px) {
@@ -1401,7 +1421,7 @@ footer {
         transition: all ease .3s;
     }
     .top-nav .ag-monogram {
-        margin-left: 10px; 
+        margin-left: 20px; 
         width: 75px;
         height: 75px;
         transition: all ease .3s;
