@@ -1303,14 +1303,28 @@ textarea:focus::placeholder {
 
 .contact-icon {
     width: 32px;
-    fill: #E9C46A;
+    fill: #F5F5F5;
     transition: .3s ease;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#dribbble:hover {
+    fill: #EA4C89;
+}
+
+#linkedin:hover {
+    fill: #0077B5;
+}
+
+#email:hover {
+    fill: #E9C46A;
 }
 
 .contact-icon:hover {
-    width: 32px;
-    fill: #E76F51;
+    margin-bottom: 10px;
     transition: .3s ease;
+    margin-top: 0px
 }
 
 .footer-content-top a:hover {
