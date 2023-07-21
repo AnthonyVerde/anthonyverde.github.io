@@ -1457,6 +1457,16 @@ footer {
         transition: ease .3s;
     }
 
+    #about-me-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #contact-content, form {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     #section2 {
         padding-left: 0px;
         padding-right: 0px;

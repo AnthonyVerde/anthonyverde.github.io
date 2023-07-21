@@ -162,8 +162,6 @@ table {
 
 #personal-work-section {
     padding-top: 100px;
-    padding-left: 40px;
-    padding-right: 40px;
     transition: ease .3s;
 }
 
@@ -183,10 +181,11 @@ table {
 }
 
 #portfolio-content {
+    margin: auto;
     margin-top: 60px;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #portfolio-btn-container {
@@ -223,8 +222,6 @@ li a {
 #portfolio-row {
     margin: auto;
     width: 100%;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .portfolio-img {
@@ -371,5 +368,10 @@ li a {
         padding-left: 0;
         padding-right: 0;
         transition: ease .3s;
+    }
+
+    #portfolio-content {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
