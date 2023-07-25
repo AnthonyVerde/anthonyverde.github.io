@@ -787,6 +787,24 @@ html {
     border-color: #E9C46A;
 }
 
+.cafe1847:hover .portfolio-item_title {
+    text-decoration: none;
+    transition: ease .3s;
+    color: #2F4858;
+}
+
+.cafe1847:hover .portfolio-item_cta-box {
+    text-decoration: none;
+    transition: ease .3s;
+    color: #2F4858;
+}
+
+.cafe1847:hover i {
+    text-decoration: none;
+    transition: ease .3s;
+    border-color: #2F4858;
+}
+
 .economical:hover .portfolio-item_title {
     text-decoration: none;
     transition: ease .3s;
@@ -923,6 +941,10 @@ html {
     background-color: #1B443D;
 }
 
+.cafe1847 .portfolio-item_bg {
+    background-color: #E76F51;
+}
+
 .economical .portfolio-item_bg {
     background-color: #E9C46A;
 }
@@ -996,10 +1018,10 @@ video:focus {
 
 /* PROJECT PAGE STYLES */
 #project-title {
-    color: #203543;
+    color: #E76F51;
     font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 36px;
     letter-spacing: -1px;
     line-height: 30px;
@@ -1010,9 +1032,10 @@ video:focus {
 }
 
 .project-description-container h2 {
-    color: #E76F51;
+    color: #2F4858;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 #contact-form {
@@ -1054,7 +1077,7 @@ video:focus {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     line-height: 1.5em;
     font-size: .9rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #content-row {
@@ -1406,7 +1429,7 @@ footer {
     .portfolio-item-img {
         height: 100%;
         top: 0;
-        object-fit: none;
+    
  
     }
 
