@@ -1452,6 +1452,7 @@ footer {
 @media only screen and (max-width: 575px) {
     #main-content {
         padding-left: 15px;
+        padding-right: 15px
     }
 
     .top-nav {
