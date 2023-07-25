@@ -1027,6 +1027,7 @@ video:focus {
     font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
     font-size: 100px;
     font-weight: 900;
+    font-style: normal;
     letter-spacing: -6px;
     line-height: 75px;
     color:#E76F51;
@@ -1494,7 +1495,7 @@ footer {
     .project-header {
         font-size: 60px;
         line-height: 50px;
-        letter-spacing: -4px;
+        letter-spacing: -3px;
     }
 
     #about-me-content {
