@@ -968,10 +968,17 @@ html {
     margin-bottom: 80px;
     mix-blend-mode: multiply;
 }
+#belwood-old-logo img {
+    display: flex;
+    margin: auto;
+    max-width: 500px;
+}
 
 .project-img img {
     width: 100%;
 }
+
+
 
 #cl-ep {
     margin-bottom: 45px;
@@ -1109,25 +1116,15 @@ video:focus {
 }
 
 .inline-link {
-    color: #212529;
+    color: #E76F51;
+    font-weight: bold;
     transition: .3s;
     text-decoration: underline;
 }
 
 .inline-link:hover {
-    color: #E76F51;
+    color: #E9C46A;
     transition: .3s;
-}
-
-#content-para a {
-    color: #212529;
-    text-decoration: underline;
-    transition: .3s ease;
-}
-
-#content-para a:hover {
-    color: #E76F51;
-    transition: .3s ease;
 }
 
 #about-me-col {
