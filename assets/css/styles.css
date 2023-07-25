@@ -1491,6 +1491,12 @@ footer {
         transition: ease .3s;
     }
 
+    .project-header {
+        font-size: 60px;
+        line-height: 50px;
+        letter-spacing: -4px;
+    }
+
     #about-me-content {
         padding-left: 20px;
         padding-right: 20px;
