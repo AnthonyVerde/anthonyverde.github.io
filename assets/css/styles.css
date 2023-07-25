@@ -957,6 +957,7 @@ html {
     background-color: #7DC1B9;
 }
 
+
 .project-img-col {
     width: 100%;
     padding: 0;
@@ -1015,10 +1016,19 @@ html {
 video:focus {
     outline: none;
 }
+.project-header {
+    font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -6px;
+    line-height: 75px;
+    color:#E76F51;
+    margin-bottom: 50px;
+}
 
 /* PROJECT PAGE STYLES */
 #project-title {
-    color: #E76F51;
+    color: #2F4858;
     font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     margin-bottom: 30px;
@@ -1031,7 +1041,7 @@ video:focus {
     padding-top: 20px;
 }
 
-.project-description-container h2 {
+.project-description-container h3 {
     color: #2F4858;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: bold;
@@ -1057,6 +1067,7 @@ video:focus {
     margin-top: 0px;
     float: left;
     margin: auto;
+    padding-left: 0;
 }
 
 .about-img img {
@@ -1069,7 +1080,7 @@ video:focus {
 }
 
 #content-para {
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 #content-para p {
@@ -1429,8 +1440,6 @@ footer {
     .portfolio-item-img {
         height: 100%;
         top: 0;
-    
- 
     }
 
     #compassion-portfolio-img {
@@ -1444,6 +1453,10 @@ footer {
 }
 
 @media only screen and (max-width: 575px) {
+    #main-content {
+        padding-left: 15px;
+    }
+
     .top-nav {
         height: 75px;
         transition: all ease .3s;
@@ -1496,7 +1509,7 @@ footer {
     }
 
     #content-para {
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     .project-img, .project-img-border {
