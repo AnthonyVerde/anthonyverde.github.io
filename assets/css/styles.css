@@ -153,6 +153,7 @@ html {
     background-color: #0b2332;
     width: 100vw;
     height: 100vh;
+    position: absolute;
     z-index: 100;
     display: flex;
     position: fixed;
@@ -178,7 +179,6 @@ html {
     animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    position: absolute;
 }
 
 
