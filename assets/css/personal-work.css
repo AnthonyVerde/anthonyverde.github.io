@@ -182,10 +182,9 @@ table {
 
 #portfolio-content {
     margin: auto;
-    margin-top: 60px;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 #portfolio-btn-container {

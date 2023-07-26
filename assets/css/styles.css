@@ -153,7 +153,6 @@ html {
     background-color: #0b2332;
     width: 100vw;
     height: 100vh;
-    position: absolute;
     z-index: 100;
     display: flex;
     position: fixed;
@@ -176,7 +175,7 @@ html {
 
 #rotatingLoader {
     animation-name: rotate-circle;
-    animation-duration: 30s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     position: absolute;
@@ -209,7 +208,7 @@ html {
 }
 
 #section2 {
-    padding-top: 160px;
+    padding-top: 100px;
     background: #F5F5F5;
 }
 
@@ -973,7 +972,7 @@ html {
 }
 
 .project-img {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     mix-blend-mode: multiply;
 }
 #belwood-old-logo img {
@@ -986,18 +985,12 @@ html {
     width: 100%;
 }
 
-
-
-#cl-ep {
-    margin-bottom: 45px;
-}
-
 #cl-insta {
     margin-top: -45px;
 }
 
 .project-img-border {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .project-img-border img {
@@ -1011,8 +1004,9 @@ html {
 
 .img-caption {
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    padding-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
     text-align: center;
 }
 
@@ -1028,6 +1022,11 @@ html {
     padding-left: 5px;
 }
 
+.project-info p {
+    font-size: 1rem !important;
+    line-height: 2rem !important;
+}
+
 video:focus {
     outline: none;
 }
@@ -1040,6 +1039,7 @@ video:focus {
     line-height: 75px;
     color:#E76F51;
     margin-bottom: 50px;
+    padding-top: 100px;
 }
 
 /* PROJECT PAGE STYLES */
@@ -1109,12 +1109,13 @@ video:focus {
 }
 
 #content-row {
-    padding-bottom: 60px;
+
     justify-content: center;
 }
 
 #about-me-content {
     margin-bottom: 100px;
+    padding-top: 20px;
 }
 
 #about-me-content p {
@@ -1140,6 +1141,7 @@ video:focus {
 #about-me-col {
     justify-content: center;
     display: flex;
+    padding-top: 20px;
 }
 
 .portrait {
@@ -1529,6 +1531,12 @@ footer {
         font-size: 60px;
         line-height: 50px;
         letter-spacing: -3px;
+        padding-top: 100px;
+    }
+
+    .img-caption {
+        font-size: 11px;
+        line-height: 15px;
     }
 
     #about-me-content {
