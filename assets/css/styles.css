@@ -144,6 +144,11 @@ html {
     scroll-behavior: smooth;
 }
 
+::selection {
+    background-color: #edbc43d5;
+    color: #232323;
+}
+
 .loader-container {
     background-color: #0b2332;
     width: 100vw;
@@ -369,6 +374,7 @@ html {
     justify-content: center;
     flex-direction: column;
     padding-left: 0;
+    top: -60px;
 }
 
 #text-container h1 {
@@ -1100,7 +1106,7 @@ video:focus {
 }
 
 #content-row {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
     justify-content: center;
 }
 
