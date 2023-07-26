@@ -176,10 +176,12 @@ html {
 
 #rotatingLoader {
     animation-name: rotate-circle;
-    animation-duration: 15s;
+    animation-duration: 30s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    position: absolute;
 }
+
 
 .disppear{
     animation:vanish .5s forwards;
@@ -194,7 +196,7 @@ html {
 
 @keyframes rotate-circle {
     to {
-       transform: rotate(1turn);
+       transform: rotate(1turn) ;
     }
 }
 
@@ -1043,12 +1045,12 @@ video:focus {
 /* PROJECT PAGE STYLES */
 #project-title {
     color: #2F4858;
-    font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
-    font-weight: 900;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 700;
     margin-bottom: 30px;
     font-size: 36px;
     letter-spacing: -1px;
-    line-height: 30px;
+    line-height: 40px;
 }
 
 .project-description-container {
@@ -1059,7 +1061,8 @@ video:focus {
     color: #2F4858;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
     font-weight: bold;
-    margin-bottom: 5px;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
 }
 
 #contact-form {
@@ -1098,11 +1101,11 @@ video:focus {
 }
 
 #content-para p {
-    font-weight: light;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    line-height: 1.5em;
-    font-size: .9rem;
-    margin-bottom: 20px;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    color: #4f4f4f;
 }
 
 #content-row {
@@ -1115,11 +1118,11 @@ video:focus {
 }
 
 #about-me-content p {
-    font-weight: light;
     font-family: 'Poppins', Helvetica, Arial, sans-serif;
-    line-height: 2.25em;
-    font-size: .9rem;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
     margin-bottom: 30px;
+    color: #4f4f4f;
 }
 
 .inline-link {
@@ -1174,7 +1177,7 @@ video:focus {
 
 #contact-content {
     padding-top: 20px;
-    max-width: 560px;
+    max-width: 700px;
     margin-bottom: 60px;
 }
 
