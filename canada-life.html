@@ -158,10 +158,13 @@
                         </div>
                         <div class="col-xs-12 col-md-8 project-img-col">
                             <div class="project-img">
-                                <img 
-                                    srcset="/assets/images/portfolio-imgs/canada-life/cl-illustrations-mobile.png  120w, /assets/images/portfolio-imgs/canada-life/cl-illustrations.png  576w"
-                                    sizes="(max-width: 575px) 120px, (min-width: 576px) 576px,">
-                                
+                                <picture>
+                                    <source srcset="/assets/images/portfolio-imgs/canada-life/cl-illustrations.png"
+                                            media="(min-width: 576px)">
+                                    <source srcset="/assets/images/portfolio-imgs/canada-life/cl-illustrations-mobile.png "
+                                            media="(max-width: 575px)">
+                                    <img src="/assets/images/portfolio-imgs/canada-life/cl-illustrations.png">
+                                  </picture>
                                 <p class="img-caption">Canada Life's continuous line style illustrations and icons</p>
                             </div>
                         </div>

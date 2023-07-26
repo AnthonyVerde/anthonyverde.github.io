@@ -974,6 +974,8 @@ html {
 .project-img {
     margin-bottom: 100px;
     mix-blend-mode: multiply;
+    padding-left: 30px;
+    padding-right: 15px;
 }
 #belwood-old-logo img {
     display: flex;
@@ -1531,7 +1533,8 @@ footer {
         font-size: 60px;
         line-height: 50px;
         letter-spacing: -3px;
-        padding-top: 100px;
+        padding-top: 40px;
+        margin-bottom: 30px;
     }
 
     .img-caption {
