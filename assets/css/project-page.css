@@ -12,11 +12,11 @@
 
 .project-h1 {
     font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
-    font-size: 150px;
+    font-size: 13vw;
     font-weight: 900;
     font-style: normal;
     letter-spacing: -6px;
-    line-height: 100px;
+    line-height: 10vw;
     color:#E76F51;
     margin-bottom: 30px;
 }
@@ -179,8 +179,13 @@
         padding-right: 20px;
     }
     .project-h1 {
-        font-size: 80px;
-        line-height: 70px;
+        font-size: 70px;
+        line-height: 60px;
+        letter-spacing: -4px;
+    }
+
+    #project-title {
+        font-size: 30px;
     }
 
     .project-img-grid {
