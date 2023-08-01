@@ -23,4 +23,46 @@ $(document).ready(function () {
     $('#myModal6').on('hidden.bs.modal', function () {
         $('#video6')[0].pause();
     })
+
+    $('#myModal7').on('hidden.bs.modal', function () {
+        $('#video7')[0].pause();
+    })
+
+    $('#myModal8').on('hidden.bs.modal', function () {
+        $('#video8')[0].pause();
+    })
+
+    $('#myModal9').on('hidden.bs.modal', function () {
+        $('#video9')[0].pause();
+    })
+
+    $('#myModal10').on('hidden.bs.modal', function () {
+        $('#video10')[0].pause();
+    })
+
+    $('#myModal11').on('hidden.bs.modal', function () {
+        $('#video11')[0].pause();
+    })
+
+    $('#myModal12').on('hidden.bs.modal', function () {
+        $('#video12')[0].pause();
+    })
+
+    $('#myModal13').on('hidden.bs.modal', function () {
+        $('#video13')[0].pause();
+    })
+
+    $('#myModal14').on('hidden.bs.modal', function () {
+        $('#video14')[0].pause();
+    })
+
+    $('#myModal15').on('hidden.bs.modal', function () {
+        $('#video15')[0].pause();
+    })
+
+    $('#myModal16').on('hidden.bs.modal', function () {
+        $('#video16')[0].pause();
+    })
+
 });
+

@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/personal-work.css">
+    <link rel="stylesheet" href="assets/css/project-page.css">
 
     <!---GOOGLE FONTS-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -82,24 +82,28 @@
     </div>
 
     <!--- MAIN CONTENT --->
-    <div class="container-fluid" id="main-content-container">
-        <section class="row" id="personal-work-section">
-            <div class="col-xs-12 col-sm-10" id="portfolio-content">
-                <h1 class="project-header">Personal work</h1>
-                <div class="row" id="portfolio-row">
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-4 portfolio-img" filter-category="motion">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-10 col-xs-12" id="project-page-content">
+                <h1 class="project-h1">Personal work</h1>
+                <div class="row">
+                    <div class="col-md-8 col-sm-12 pad-x0">
+                        <p class="project-intro">Enjoy a collection of digital illustrations and animations I've done over the years. Apparently, I'm really into cars, coffee, and cheesy jokes.</p>                
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 col-xs-12 project-img-section">
+                <div class="row project-img-grid">
+                    
+                    <div class="col-md-6 col-xs-12 project-img-new">
                         <a href="#" data-toggle="modal" data-target="#myModal3" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/humor/skinny-latte.png">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/play-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Skinny Latte</h3>
-                                </div>
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
                             </div>
+                            <img src="/assets/images/portfolio-imgs/humor/skinny-latte.png">
                         </a>
-
                         <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                             <div class="modal-dialog modal-square" role="document">
                                 <div class="modal-content">
@@ -117,120 +121,112 @@
                         </div>
                     </div>
                     
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" src="/assets/images/portfolio-imgs/illustration/ferrari-250gt.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Bueller? Bueller?</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-6 col-xs-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">8 bits of awesomeness from 1985</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/casio-keyboard.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img id="" loading="lazy" src="assets/images/portfolio-imgs/illustration/plymouth-voyager.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Plymouth Voyager</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" id="" src="assets/images/portfolio-imgs/illustration/casio-keyboard.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Casio SK-1</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-6 col-xs-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">Plymouth Voyager with wood panelling. We need to bring back wood panelling.</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/plymouth-voyager.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img id="" loading="lazy" src="assets/images/portfolio-imgs/illustration/ferrari-f40.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Ferrari F40</h3>
+                    <div class="col-md-6 col-xs-12 project-img-new">
+                        <a href="#" data-toggle="modal" data-target="#myModal15" id="portfolio-item-trigger">
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
+                            </div>
+                            <img src="/assets/images/portfolio-imgs/humor/hex-coffee.png">
+                        </a>
+                        <div class="modal fade" id="myModal15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog modal-horiz" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video controls="" preload="none" id="video15" style="width: 100%; height: auto; margin:0 auto;">
+                                            <source src="assets/videos/hex-coffee.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img id="" loading="lazy" src="assets/images/portfolio-imgs/illustration/coffee-drip.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Coffee Woes</h3>
+                    <div class="col-md-4 col-xs-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">1964 Ford Falcon Wagon</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/ford-falcon-wagon.jpg">
+                    </div>
+
+                    <div class="col-md-4 col-xs-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">1987 Ferrari F40</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/ferrari-f40.jpg">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 project-img-new">
+                        <div class="project-img-caption">
+                            <p class="caption-text">There's the reason for those coffee rings all over your desk</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/coffee-drip.jpg">
+                    </div>
+
+                    <div class="col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">Bueller? Bueller?</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/ferrari-250gt.jpg">
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 project-img-new" >
+                        <a href="#" data-toggle="modal" data-target="#myModal16" id="portfolio-item-trigger">
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
+                            </div>
+                            <img src="/assets/images/portfolio-imgs/humor/web-developers.png">
+                        </a>
+                        <div class="modal fade" id="myModal16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog modal-horiz" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <video controls="" preload="none" id="video16" style="width: 100%; height: auto; margin:0 auto;">
+                                            <source src="assets/videos/spider.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                        </video>
+                                    </div>
                                 </div>
                             </div>
-                        </a>
+                        </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" id="" src="assets/images/portfolio-imgs/illustration/ford-falcon-wagon.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Ford Falcon Wagon</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-6 col-xs-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">If IKEA were a cofee shop</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/coffee-assembly.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" id="" src="assets/images/portfolio-imgs/illustration/coffee-assembly.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Coffee Assembly</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                    <div class="col-md-4 col-sm-12  project-img-new" >
                         <a href="#" data-toggle="modal" data-target="#myModal7" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/humor/responsively.png">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/play-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Responsively</h3>
-                                </div>
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
                             </div>
+                            <img src="/assets/images/portfolio-imgs/humor/responsively.png">
                         </a>
-
                         <div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
+                            <div class="modal-dialog modal-horiz" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -246,63 +242,36 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/illustration/coffee-helmet.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Hands-free Coffee</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-4 col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">When you need your coffee but have to meet a bunch of tight deadlines</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/coffee-helmet.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img id="" loading="lazy" src="assets/images/portfolio-imgs/illustration/smart-shark.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Smart Shark</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-4 col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">Smart Shark</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/smart-shark.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/illustration/chevy-malibu.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>80's Chevy Malibu</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-6 col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">Early 80s Chevy Malibu &mdash; the car I grew up with</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/chevy-malibu.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                    <div class="col-md-6 col-sm-12 project-img-new" >
                         <a href="#" data-toggle="modal" data-target="#myModal2" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/humor/design-joke.png">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/play-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Designer's Pants</h3>
-                                </div>
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
                             </div>
+                            <img src="/assets/images/portfolio-imgs/humor/design-joke.png">
                         </a>
-
                         <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
+                            <div class="modal-dialog modal-horiz" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -318,35 +287,22 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/illustration/vw-bus.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>VW Bus</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">VW T1 Bus</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/vw-bus.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                    <div class="col-md-4 col-sm-12 project-img-new" >
                         <a href="#" data-toggle="modal" data-target="#myModal4" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/humor/bugs.png">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/play-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Bugs</h3>
-                                </div>
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
                             </div>
+                            <img src="/assets/images/portfolio-imgs/humor/bugs.png">
                         </a>
-
                         <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
+                            <div class="modal-dialog modal-horiz" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -362,129 +318,91 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/illustration/cozy-coupe.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Cozy Coupe</h3>
-                                </div>
-                            </div>
-                        </a>
+                    <div class="col-md-4 col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">First set o' wheels</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/cozy-coupe.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                    <div class="col-md-4 col-sm-12 project-img-new" >
                         <a href="#" data-toggle="modal" data-target="#myModal5" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/humor/extra-pixels.png">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/play-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Extra Pixels</h3>
-                                </div>
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
                             </div>
+                            <img src="/assets/images/portfolio-imgs/humor/extra-pixels.png">
                         </a>
-
-                        <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video controls="" preload="none" id="video5" style="width: 100%; height: auto; margin:0 auto;">
-                                            <source src="assets/videos/extra-pixels.mp4" type="video/mp4">
-                                            Your browser doesn't support HTML5 video tag.
-                                        </video>
-                                    </div>
+                    </div>
+                    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-horiz" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                </div>
+                                <div class="modal-body">
+                                    <video controls="" preload="none" id="video5" style="width: 100%; height: auto; margin:0 auto;">
+                                        <source src="assets/videos/extra-pixels.mp4" type="video/mp4">
+                                        Your browser doesn't support HTML5 video tag.
+                                    </video>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/illustration/cocoa-assembly.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Hot Cocoa Assembly</h3>
-                                </div>
-                            </div>
-                        </a>
+
+                    <div class="col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">How to make the perfect hot cocoa</p>
+                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/cocoa-assembly.jpg">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="motion">
+                    <div class="col-md-6 col-sm-12 project-img-new" >
                         <a href="#" data-toggle="modal" data-target="#myModal6" id="portfolio-item-trigger">
-                            <img loading="lazy" src="assets/images/portfolio-imgs/humor/fullstack.png">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/play-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Full Stack</h3>
-                                </div>
+                            <div class="play-btn-container">
+                                <img class="play-btn" src="assets/images/play-btn-solid-blue-300x300.png">
                             </div>
+                            <img src="/assets/images/portfolio-imgs/humor/fullstack.png">
                         </a>
-
-                        <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <video controls="" preload="none" id="video6" style="width: 100%; height: auto; margin:0 auto;">
-                                            <source src="assets/videos/full-stack.mp4" type="video/mp4">
-                                            Your browser doesn't support HTML5 video tag.
-                                        </video>
-                                    </div>
+                    </div>
+                    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog modal-horiz" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                </div>
+                                <div class="modal-body">
+                                    <video controls="" preload="none" id="video6" style="width: 100%; height: auto; margin:0 auto;">
+                                        <source src="assets/videos/full-stack.mp4" type="video/mp4">
+                                        Your browser doesn't support HTML5 video tag.
+                                    </video>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 portfolio-img" filter-category="illustration">
-                        <a href="#" class="zoom" data-toggle="modal" data-target="#lightbox" id="portfolio-item-trigger">
-                            <img id="" loading="lazy" src="assets/images/portfolio-imgs/illustration/sopwith-camel.jpg">
-                            <div class="middle">
-                                <div class="thumbnail-icon">
-                                    <img src="assets/images/zoom-button-18x18.svg">
-                                </div>
-                                <div class="img-description">
-                                    <h3>Sopwith Camel</h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!--MODAL-->
-
-            <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <div class="col-md-6 col-sm-12 project-img-new" >
+                        <div class="project-img-caption">
+                            <p class="caption-text">Billy Barker's Sopwith Camel</p>
                         </div>
-                        <div class="modal-body">
-                            <img src="" alt="">
-                        </div>
+                        <img src="/assets/images/portfolio-imgs/illustration/sopwith-camel.jpg">
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-        </section>
-
+    <!--MODAL-->
+    <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                </div>
+                <div class="modal-body">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row" id="universal-footer"></div>

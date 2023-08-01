@@ -139,6 +139,45 @@ table {
     padding-bottom: 40px;
 }
 
+.mar-x0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.mar-y0 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.pad-x0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pad-x2 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.pad-y0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.mar-t6 {
+    margin-top: 60px;
+}
+
+.mar-b6 {
+    margin-bottom: 60px;
+}
+
+.contain-img {
+    object-fit: contain !important;
+    object-position: top;
+    background: white;
+}
+
 /* BEGIN CUSTOM CSS */
 html {
     scroll-behavior: smooth;
@@ -353,11 +392,6 @@ html {
     padding: 0 !important;
 }
 
-.col-md-8 {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
 .col-12 {
     padding: 0 !important;
 }
@@ -379,25 +413,24 @@ html {
 }
 
 #text-container h1 {
-    font-size: 14.5rem;
+    font-size: 14vw;
     font-family: 'Playfair', Georgia, 'Times New Roman', Times, serif;
     color: #E76F51;
     font-weight: 900;
     font-style: normal;
-    line-height: 48.5%;
-    letter-spacing: -12px;
-    padding-bottom: 60px;
+    line-height: 67.5%;
+    letter-spacing: -9px;
+    padding-bottom: 7vw;
 }
 
 #text-container h2 { 
-    font-size: 4.75rem;
-	color: #7DC1B9;
-	font-family: 'Poppins', Helvetica, Arial, sans-serif;
-	font-weight: 700;
-	line-height: 104px;
+    font-size: 5.5vw;
+    color: #7DC1B9;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 17vh;
     letter-spacing: -2px;
-    z-index: -2;
-    
+    z-index: 0;
 }
 
 .home-text_1 {
@@ -415,11 +448,11 @@ html {
 .home-text_4 {
     animation: hometext4;
 }
-
+/*
 .about-text_1 {
-    animation: abouttext1;
+    max-width: 500px;
 }
-  
+
 .about-text_2 {
     animation: abouttext2;
 }
@@ -451,10 +484,10 @@ html {
 .contact-text_4 {
     animation: contacttext4;
 }
-
+*/
 .h2text {
     position: absolute;
-    bottom: -68px;
+    bottom: -48px;
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
@@ -464,9 +497,26 @@ html {
     z-index: -2;
 }
 
-.about-text_5 {
-    bottom: -130px;
+.h2text-static {
+    display: inline-block;
+    line-height: 5.5vw !important;
+    max-width: 75vw;
+    position: absolute;
 }
+
+#h2-about {
+    bottom: -1vw;
+}
+
+#h2-contact {
+    bottom: -6.5vw;
+}
+
+/*
+.about-text_5 {
+    bottom: -125px;
+}
+*/
   
 
 
@@ -525,7 +575,7 @@ html {
     }
     
     75%, 95% {
-        width: 8.25em;
+        width: .25em;
     }
 } 
 
@@ -535,7 +585,7 @@ html {
     }
     
     55%, 65% {
-        width: 3.25em;
+        width: 9.25em;
     }
 }
   
@@ -545,7 +595,7 @@ html {
     }
     
     30%, 45% {
-        width: 5.75em;
+        width: 7.5em;
     }
 }
   
@@ -704,6 +754,7 @@ html {
     padding-top: 130px;
     padding-bottom: 100px;
 }
+
 .portfolio_item {
     margin: 0 15px 30px;
     overflow: hidden;
@@ -1077,9 +1128,6 @@ video:focus {
 }
 
 /* ABOUT ME STYLES */
-#h1-about {
-    line-height: 160px !important;
-}
 
 #main-content {
     margin-bottom: 100px;
@@ -1087,6 +1135,7 @@ video:focus {
     float: left;
     margin: auto;
     padding-left: 0;
+    padding-right: 0;
 }
 
 .about-img img {
@@ -1222,15 +1271,19 @@ input {
 
 #name-input::placeholder {
     opacity: .75;
+    transition: ease .2s;
 }
 
 #email-input::placeholder {
     opacity: .75;
+    transition: ease .2s;
 }
 
 input:focus {
     background-color: rgb(233, 233, 233);
     outline: none !important;
+
+
 }
 
 input:focus::placeholder {
@@ -1258,6 +1311,7 @@ input:focus::placeholder {
     background: none;
     font-size: 1.25rem;
     color: #4f4f4f;
+    transition: ease .2s;
 }
 
 textarea {
@@ -1436,20 +1490,47 @@ footer {
 }
 
 /* RESPONSIVE STYLES */
+@media only screen and (max-width: 1200px) {
+    .portfolio-item-img {
+        height: 100%;
+        top: 0;
+    }
+
+    #compassion-portfolio-img {
+        height: 100% !important;
+    }
+
+    #cl-portfolio-img {
+        object-position: right;
+    }
+
+}
 
 @media only screen and (max-width: 900px) {
     #text-container h1 {
-        font-size: 25vw;
+        font-size: 18vw;
         padding-bottom: 7vw;
         letter-spacing: -9px;
     }
     #text-container h2 {
-        font-size: 9.5vw;
+        font-size: 8.5vw;
         letter-spacing: -2px;
     }
 
-    #h1-about {
-        line-height: 17vw !important;
+    .h2text-static {
+        line-height: 10vw !important;
+    }
+
+    .h2text {
+        bottom: -80px;
+    }
+    
+    #h2-about {
+        bottom: -16vw;
+    }
+    
+    #h2-contact {
+        bottom: -16vw;
     }
 }
 
@@ -1467,23 +1548,14 @@ footer {
         text-align: center;
     }
 }
-@media only screen and (max-width: 1200px) {
-    .portfolio-item-img {
-        height: 100%;
-        top: 0;
-    }
 
-    #compassion-portfolio-img {
-        height: 100% !important;
-    }
-
-    #cl-portfolio-img {
-        object-position: right;
-    }
-
-}
 
 @media only screen and (max-width: 575px) {
+    .pad-xs-x2 {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
     #main-content {
         padding-left: 15px;
         padding-right: 15px
@@ -1527,6 +1599,10 @@ footer {
         height: 45px;
         left: -10px;
         transition: ease .3s;
+    }
+
+    .portfolio_item {
+        margin: 0 0px 30px;
     }
 
     .project-header {
