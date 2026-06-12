@@ -574,21 +574,6 @@ table {
     object-position: top;
     background: white;
 }
-/* SLIDE */
-.slide-lr {
-    animation: slideLR ease-in-out both;
-    animation-timeline: view();
-    animation-range: entry 0% entry 100%; 
-}
-
-@keyframes slideLR {
-  from {
-    transform: translateX(400px);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
 
 /* ROTATE */
 .rotate-cw {
@@ -668,13 +653,16 @@ h2 {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    background-image: url(/assets/images/anthony-green-script-logo-green.svg);
-    width: 140px;
+    /*background-image: url(/assets/images/anthony-green-script-logo-green.svg);*/
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
     transition: all ease .3s;
     display: inline-block;
+    font-family: "professor", script;
+    font-size: 36px;
+    color: #1B443D;
+
 }
 
 .ag-script-logo:focus {
@@ -685,17 +673,26 @@ h2 {
 #hero {
     width: 100vw;;
     height: 100vh;
-    background: linear-gradient(#161C1B, #232D2B);
+    background-image: linear-gradient(#161c1bcc, #232d2b), url(/assets/images/homepage-hero.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    background-size: cover;
 }
 
 #hero-text {
     font-family: "DM Serif Display", Helvetica, Arial, sans-serif;
     color: #EBF2F1;
     font-size: 36px;
+    margin-top: auto;
+}
+
+#hero-text-large {
+    font-family: "professor", script;
+    color: #EBF2F1;
+    font-size: 120px;
     margin-top: auto;
 }
 
@@ -707,9 +704,9 @@ h2 {
     opacity: 0;
 }
 
-#ag-script-logo {
-    width: 60vw;
-    height: auto;
+.ag-script-logo:hover {
+    text-decoration: none;
+    color:#2D554E;
 }
 
 .down-arrow {
@@ -758,17 +755,17 @@ h2 {
 
 #intro-text {
     color: #1B443D;
-    font-family: "caveat", cursive;
-    font-size: 30px;
+    font-family: "DM Serif", script;
+    font-size: 18px;
     text-align: center;
-    line-height: 1em;
-    word-spacing: .1em;
+    line-height: 30px;
     width: 100%;
 }
 
 #intro-text span {
     text-decoration: underline dashed #5cc7b5 2px;
-    text-underline-offset: 5px;
+    text-underline-offset: 7px;
+    font-weight: bold;
 }
 
 #intro-cta {
@@ -821,7 +818,7 @@ h2 {
     background-position ease 0s 0.3s; 
     cursor: pointer;
     color: #2D554E;
-    font-family: "caveat", cursive;
+    font-family: "professor", script;
     font-size: 30px;
     width: 100%;
     text-decoration: none;
@@ -1203,7 +1200,7 @@ h2 {
 
 #human-declaration {
     color: #EBF2F1;
-    font-family: "caveat", cursive;
+    font-family: "professor", script;
     font-size: 36px;
     font-style: italic;
     word-spacing: .05em;
@@ -1227,6 +1224,10 @@ h2 {
 @media only screen and (max-width: 767px) {
     h1 {
         font-size: 40px !important;
+    }
+
+    #hero-text-large {
+        font-size: 55px !important;
     }
 
     h2 {
