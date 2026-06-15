@@ -741,7 +741,7 @@ h2 {
 }
 
 #intro {
-    max-width: 700px;
+    max-width: 750px;
     background-color: white;
     border-radius: 7px;
     box-shadow: 0px 16px 32px rgb(75 109 103 / 25%);
@@ -755,7 +755,7 @@ h2 {
 
 #intro-text {
     color: #1B443D;
-    font-family: "DM Serif", script;
+    font-family: "DM Sans", script;
     font-size: 18px;
     text-align: center;
     line-height: 30px;
