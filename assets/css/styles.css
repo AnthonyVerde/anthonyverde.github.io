@@ -1198,6 +1198,30 @@ h2 {
     justify-content: center;
 }
 
+.footer-content-top {
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    max-width: 383px;
+}
+
+.footer-content-top a {
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: .7;
+    transition: .5s ease;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-content-top a:hover {
+    text-decoration: none; 
+    opacity: 1;
+    transition: .5s ease;
+    color: #d4d93e;
+}
+
 #human-declaration {
     color: #EBF2F1;
     font-family: "professor", script;
